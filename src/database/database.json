@@ -1,0 +1,377 @@
+{
+    "itineraries": [
+      {
+        "community_name": "Wayuu",
+        "defining_phrase": "Tejedores del Desierto",
+        "importance_description": "La comunidad Wayuu es conocida por su impresionante habilidad en la artesanía, especialmente en la elaboración de mochilas y hamacas. Su cultura rica y vibrante se destaca en la árida región de La Guajira.",
+        "why_know_community": "Conocer a la comunidad Wayuu permite apreciar su resistencia en un entorno desafiante y su increíble habilidad artesanal. Su modo de vida y tradiciones son una manifestación única de adaptación y creatividad en el desierto.",
+        "representative_phrase": "En cada hilo, tejemos nuestra historia y nuestra identidad.",
+        "images": [
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+        ],
+        "plan_description": {
+          "travel_time": "3 días, 2 noches",
+          "suitable_for_groups": true,
+          "includes_native_guide": true,
+          "unique_experiences": "Talleres de tejido, visitas a rancherías, degustación de gastronomía tradicional"
+        },
+        "activity_itinerary": {
+          "day_1": {
+            "description": "Llegada y bienvenida en la ranchería. Introducción a la cultura Wayuu. Taller de tejido de mochilas. Cena tradicional y alojamiento en rancherías.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_2": {
+            "description": "Visita a una ranchería vecina. Participación en actividades cotidianas. Narración de historias y leyendas Wayuu.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_3": {
+            "description": "Desayuno y visita a un mercado artesanal. Despedida y regreso a la ciudad de origen.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          }
+        }
+      },
+      {
+        "community_name": "Comunidad Wayuu",
+        "defining_phrase": "Tejedores del Desierto",
+        "importance_description": "La comunidad Wayuu es conocida por su impresionante habilidad en la artesanía, especialmente en la elaboración de mochilas y hamacas. Su cultura rica y vibrante se destaca en la árida región de La Guajira.",
+        "why_know_community": "Conocer a la comunidad Wayuu permite apreciar su resistencia en un entorno desafiante y su increíble habilidad artesanal. Su modo de vida y tradiciones son una manifestación única de adaptación y creatividad en el desierto.",
+        "representative_phrase": "En cada hilo, tejemos nuestra historia y nuestra identidad.",
+        "images": [
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+        ],
+        "plan_description": {
+          "travel_time": "3 días, 2 noches",
+          "suitable_for_groups": true,
+          "includes_native_guide": true,
+          "unique_experiences": "Talleres de tejido, visitas a rancherías, degustación de gastronomía tradicional"
+        },
+        "activity_itinerary": {
+          "day_1": {
+            "description": "Llegada y bienvenida en la ranchería. Introducción a la cultura Wayuu. Taller de tejido de mochilas. Cena tradicional y alojamiento en rancherías.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_2": {
+            "description": "Visita a una ranchería vecina. Participación en actividades cotidianas. Narración de historias y leyendas Wayuu.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_3": {
+            "description": "Desayuno y visita a un mercado artesanal. Despedida y regreso a la ciudad de origen.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          }
+        }
+      },
+      {
+        "community_name": "Comunidad Arhuaco",
+        "defining_phrase": "Guardianes de la Sierra",
+        "importance_description": "Los Arhuacos son conocidos por su profunda espiritualidad y su conexión con la Sierra Nevada de Santa Marta. Su cosmovisión está centrada en el equilibrio y la armonía con la naturaleza.",
+        "why_know_community": "Conocer a la comunidad Arhuaco permite entender su visión del mundo y su respeto por la naturaleza. Sus prácticas sostenibles y su sabiduría ancestral son esenciales para la conservación ambiental y cultural.",
+        "representative_phrase": "Vivimos en armonía con la Madre Tierra, cuidando de ella como ella cuida de nosotros.",
+        "images": [
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+        ],
+        "plan_description": {
+          "travel_time": "3 días, 2 noches",
+          "suitable_for_groups": true,
+          "includes_native_guide": true,
+          "unique_experiences": "Rituales de armonización, caminatas por la Sierra, talleres de tejido y confección de mochilas"
+        },
+        "activity_itinerary": {
+          "day_1": {
+            "description": "Llegada y bienvenida en la comunidad. Introducción a la cultura Arhuaca. Visita al templo sagrado. Cena tradicional y alojamiento en cabañas.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_2": {
+            "description": "Caminata por la Sierra guiada por un mamo (líder espiritual). Taller de tejido de mochilas. Narración de mitos y leyendas Arhuacas.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_3": {
+            "description": "Desayuno y participación en un ritual de armonización. Despedida y regreso a la ciudad de origen.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          }
+        }
+      },
+      {
+        "community_name": "Comunidad Embera",
+        "defining_phrase": "Guardianes del Bosque",
+        "importance_description": "La comunidad Embera es conocida por su estrecha relación con el bosque tropical y sus conocimientos sobre plantas medicinales. Sus coloridas artesanías y bailes tradicionales son una parte vibrante de su cultura.",
+        "why_know_community": "Conocer a la comunidad Embera ofrece una inmersión en un estilo de vida sostenible y en armonía con el entorno natural. Su saber medicinal y cultural es un tesoro invaluable para la humanidad.",
+        "representative_phrase": "El bosque nos da vida, y nosotros cuidamos de él con todo nuestro ser.",
+        "images": [
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+        ],
+        "plan_description": {
+          "travel_time": "3 días, 2 noches",
+          "suitable_for_groups": true,
+          "includes_native_guide": true,
+          "unique_experiences": "Caminatas por el bosque, talleres de artesanía, ceremonias tradicionales"
+        },
+        "activity_itinerary": {
+          "day_1": {
+            "description": "Llegada y bienvenida en la comunidad. Introducción a la cultura Embera. Caminata por el bosque y reconocimiento de plantas medicinales. Cena tradicional y alojamiento en casas comunitarias.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_2": {
+            "description": "Taller de artesanía: creación de collares y pulseras. Participación en una ceremonia tradicional. Narración de historias y leyendas Embera.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_3": {
+            "description": "Desayuno y visita a una cascada sagrada. Despedida y regreso a la ciudad de origen.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          }
+        }
+      },
+      {
+        "community_name": "Comunidad Pastos",
+        "defining_phrase": "Herederos de los Andes",
+        "importance_description": "La comunidad Pastos es conocida por su rica tradición agrícola y sus coloridos trajes y danzas. Viven en los Andes, manteniendo prácticas agrícolas sostenibles y festividades culturales vibrantes.",
+        "why_know_community": "Conocer a la comunidad Pastos permite apreciar la herencia cultural andina y sus prácticas agrícolas sostenibles. Su música, danza y tradiciones agrícolas son un testimonio de la riqueza cultural de los Andes.",
+        "representative_phrase": "En la tierra andina cultivamos nuestra identidad y celebramos nuestra cultura.",
+        "images": [
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+        ],
+        "plan_description": {
+          "travel_time": "3 días, 2 noches",
+          "suitable_for_groups": true,
+          "includes_native_guide": true,
+          "unique_experiences": "Participación en festividades tradicionales, talleres de agricultura andina, recorridos por paisajes andinos"
+        },
+        "activity_itinerary": {
+          "day_1": {
+            "description": "Llegada y bienvenida en la comunidad. Introducción a la cultura Pastos. Participación en una danza tradicional. Cena andina y alojamiento en casas comunitarias.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_2": {
+            "description": "Taller de agricultura andina y visita a cultivos. Participación en una ceremonia de agradecimiento a la tierra. Narración de historias y mitos andinos.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_3": {
+            "description": "Desayuno y recorrido por los paisajes andinos. Despedida y regreso a la ciudad de origen.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          }
+        }
+      },
+      {
+        "community_name": "Comunidad Kogui",
+        "defining_phrase": "Guardianes de la Sierra Nevada",
+        "importance_description": "La comunidad Kogui es conocida por su profundo conocimiento ancestral y su relación armoniosa con la naturaleza. Son considerados los guardianes de la Sierra Nevada de Santa Marta, preservando tradiciones y sabiduría milenaria.",
+        "why_know_community": "Conocer a la comunidad Kogui nos permite aprender sobre una forma de vida que valora y protege el medio ambiente. Su cosmovisión y prácticas sostenibles ofrecen valiosas lecciones sobre la conservación y el respeto por la naturaleza. Además, su rica cultura y tradiciones son un patrimonio cultural invaluable que merece ser reconocido y preservado.",
+        "representative_phrase": "La tierra es nuestra madre y debemos cuidarla como cuidamos a nuestros hijos.",
+        "images": [
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+        ],
+        "plan_description": {
+          "travel_time": "3 días, 2 noches",
+          "suitable_for_groups": true,
+          "includes_native_guide": true,
+          "unique_experiences": "Participación en rituales sagrados, caminatas por la selva, talleres de artesanía tradicional"
+        },
+        "activity_itinerary": {
+          "day_1": {
+            "description": "Llegada y bienvenida en la comunidad. Introducción a la cultura Kogui. Visita al templo sagrado y explicación de los rituales. Cena tradicional y alojamiento en cabañas.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_2": {
+            "description": "Caminata por la selva guiada por un nativo, aprendizaje sobre plantas medicinales. Taller de artesanía: creación de mochilas tradicionales. Narración de historias ancestrales alrededor de una fogata.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_3": {
+            "description": "Desayuno y visita a una cascada sagrada. Despedida y regreso a la ciudad de origen.",
+            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          }
+        }
+      },
+      {
+        "community_name": "Comunidad Huitoto",
+        "defining_phrase": "Hijos de la Selva Amazónica",
+        "importance_description": "La comunidad Huitoto es conocida por su rica tradición oral y su conocimiento de la selva amazónica. Su cosmovisión está estrechamente vinculada a la naturaleza y sus ciclos.",
+        "why_know_community": "Conocer a la comunidad Huitoto permite entender la relación simbiótica entre la naturaleza y la cultura. Sus prácticas de vida sostenible y su sabiduría ancestral son vitales para la conservación del Amazonas.",
+        "representative_phrase": "La selva nos habla, y nosotros escuchamos sus enseñanzas.",
+        "images": [
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+        ],
+        "plan_description": {
+          "travel_time": "4 días, 3 noches",
+          "suitable_for_groups": true,
+          "includes_native_guide": true,
+          "unique_experiences": "Exploración de la selva, narración de mitos y leyendas, participación en rituales chamánicos"
+        },
+        "activity_itinerary": {
+          "day_1": {
+            "description": "Llegada y asentamiento en la comunidad Huitoto. Recorrido introductorio por el poblado y encuentro con el chamán. Cena tradicional y alojamiento en malocas.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_2": {
+            "description": "Exploración de la selva con guías Huitoto. Observación de fauna y flora. Ritual de purificación dirigido por el chamán.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_3": {
+            "description": "Visita a una plantación de alimentos y aprendizaje sobre la agricultura Huitoto. Taller de artesanía y caza tradicional. Narración de historias y leyendas.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_4": {
+            "description": "Ceremonia de despedida y entrega de amuletos protectores. Regreso a la ciudad de origen.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          }
+        }
+      },
+      {
+        "community_name": "Comunidad Inca",
+        "defining_phrase": "Hijos del Sol",
+        "importance_description": "La comunidad Inca es conocida por su avanzado conocimiento en ingeniería y astronomía. Su legado incluye impresionantes construcciones y una rica tradición espiritual.",
+        "why_know_community": "Conocer a la comunidad Inca es aprender sobre una de las civilizaciones más avanzadas de América. Su arquitectura, agricultura y cosmovisión son una fuente de inspiración y conocimiento histórico.",
+        "representative_phrase": "El sol es nuestro padre, y su luz guía nuestro camino.",
+        "images": [
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+        ],
+        "plan_description": {
+          "travel_time": "5 días, 4 noches",
+          "suitable_for_groups": true,
+          "includes_native_guide": true,
+          "unique_experiences": "Visitas a sitios arqueológicos, participación en rituales solares, talleres de artesanía y agricultura andina"
+        },
+        "activity_itinerary": {
+          "day_1": {
+            "description": "Llegada y asentamiento en la comunidad Inca. Visita a un sitio arqueológico cercano. Cena tradicional andina y alojamiento en casas comunitarias.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_2": {
+            "description": "Participación en un ritual solar al amanecer. Taller de agricultura andina y técnicas de cultivo en terrazas. Narración de mitos y leyendas incas.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_3": {
+            "description": "Excursión a una ruina incaica importante. Taller de tejido y cerámica tradicional. Observación de las estrellas y explicación de la astronomía inca.",
+            "image":"https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_4": {
+            "description": "Visita a un mercado artesanal. Taller de medicina tradicional y herbolaria. Caminata por un antiguo camino inca.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_5": {
+            "description": "Ceremonia de despedida y entrega de recuerdos. Regreso a la ciudad de origen.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          }
+        }
+      },
+      {
+        "community_name": "Comunidad Ticuna",
+        "defining_phrase": "Guardianes del Río Amazonas",
+        "importance_description": "La comunidad Ticuna es una de las más grandes en la región del Amazonas. Son conocidos por sus rituales de iniciación y su profundo conocimiento del río y la selva.",
+        "why_know_community": "Conocer a la comunidad Ticuna permite apreciar la relación íntima entre cultura y naturaleza en el Amazonas. Sus rituales y conocimientos ancestrales son esenciales para la conservación del río y la selva.",
+        "representative_phrase": "El río es nuestro hogar y nuestra fuente de vida.",
+        "images": [
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
+            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+        ],
+        "plan_description": {
+          "travel_time": "4 días, 3 noches",
+          "suitable_for_groups": true,
+          "includes_native_guide": true,
+          "unique_experiences": "Navegación por el Amazonas, participación en rituales de iniciación, exploración de la selva"
+        },
+        "activity_itinerary": {
+          "day_1": {
+            "description": "Llegada y bienvenida en la comunidad Ticuna. Navegación por el río Amazonas y reconocimiento del entorno. Cena tradicional y alojamiento en malocas.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_2": {
+            "description": "Exploración de la selva con guías Ticuna. Taller de pesca tradicional y preparación de alimentos. Participación en un ritual de iniciación.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_3": {
+            "description": "Visita a una comunidad vecina y aprendizaje sobre intercambios culturales. Taller de artesanía: creación de máscaras y trajes ceremoniales. Narración de mitos y leyendas Ticuna.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          },
+          "day_4": {
+            "description": "Desayuno y ceremonia de despedida. Navegación de regreso y retorno a la ciudad de origen.",
+            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+          }
+        }
+      }
+    ],
+    "plans": [
+        {
+            "name": "nasa",
+            "location": "cauca",
+            "price": 1400000,
+            "duration": "4 dias y 3 noches"
+        },
+        {
+            "name": "wayúu",
+            "location": "guajira",
+            "price": 1700000,
+            "duration": "5 dias y 4 noches"
+        },
+        {
+            "name": "arhuaco",
+            "location": "santa marta",
+            "price": 2000000,
+            "duration": "5 dias y 4 noches"
+        },
+        {
+            "name": "embera",
+            "location": "valle del cauca",
+            "price": 13000000,
+            "duration": "4 dias y 3 noches"
+        },
+        {
+            "name": "pastos",
+            "location": "nariño",
+            "price": 1900000,
+            "duration": "5 dias y 4 noches"
+        },
+        {
+            "name": "kogui",
+            "location": "santa marta",
+            "price": 2000000,
+            "duration": "5 dias y 4 noches"
+        },
+        {
+            "name": "ticuna",
+            "location": "amazonas",
+            "price": 2500000,
+            "duration": "5 dias y 4 noches"
+        },
+        {
+            "name": "huitoto",
+            "location": "amazonas",
+            "price": 2500000,
+            "duration": "5 dias y 4 noches"
+        },
+        {
+            "name": "inga",
+            "location": "amazonas",
+            "price": 2500000,
+            "duration": "5 dias y 4 noches"
+        }
+    ]
+  }
+  
+  
+
+  
