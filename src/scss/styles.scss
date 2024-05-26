@@ -1,2 +1,287 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+
+
+//sing in, sing up styles
+
+// Root variables for color themes
+:root {
+    --form-ok-color: #4caf50;
+    --form-error-color: #f44336;
+    --juntana-button-color: #712E25;
+    --text-color: rgb(234, 234, 234);
+    --anchore-color: rgb(25, 25, 25);
+    --Juntana-letter: #A94611;
+  }
+  
+  
+  
+  /*From here start the decoration for the sing in, sing up*/
+  
+  /*From here start the decoration for the mobile view*/
+  .right-side {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-sing1 {
+    background-color: var(--juntana-button-color);
+    color: var(--text-color);
+  }
+  
+  .login-form {
+    width: 80%;
+  }
+  
+  .text-o {
+    color: var(--Juntana-letter);
+  }
+  
+  .form-container {
+    background-color: var();
+  }
+  
+  a {
+    color: var(--anchore-color);
+  }
+  
+  /*register form validarion decoration*/
+  
+  .register-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .register-form>* {
+    padding: 0.5rem;
+    margin: 1rem auto;
+    display: block;
+  }
+  
+  .register-form textarea {
+    resize: none;
+  }
+  
+  .register-form legend,
+  .register-form-response {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .contact-form input {
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+  
+  .contact-form input[type="submit"] {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .contact-form *::placeholder {
+    color: #000;
+  }
+  
+  .contact-form [required]:valid {
+    border: thin solid var(--form-ok-color);
+  }
+  
+  .contact-form [required]:invalid {
+    border: thin solid var(--form-error-color);
+  }
+  
+  .contact-form-error {
+    margin-top: 0.1rem;
+    font-size: 1rem;
+    background-color: var(--form-error-color);
+    color: var(--text-color);
+    transition: all 800ms ease;
+  }
+  
+  .contact-form-error.is-active {
+    display: block;
+    animation: show-message 1s 1 normal 0s ease-out both;
+  }
+  
+  .none {
+    display: none;
+  }
+  
+  @keyframes show-message {
+    0% {
+      visibility: hidden;
+      opacity: 0;
+    }
+  
+    100% {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  /*From here start the decoration of the desktop view*/
+  
+  @media (min-width:768px) {
+  
+    .container-register {
+      display: flex;
+  
+    }
+    .register-link{
+      display: flex;
+      text-align:justify;
+      justify-content: center;
+    }
+    
+    a {
+      margin-left: 0.3rem;
+      color: var(--anchore-color);
+    }
+    .buttons-containers{
+      margin: 0rem;
+    }
+    
+    .banner-container {
+      background-image: url("../../public/img/indigenous-1531-x-980-background-ut1me63d9zddtfoz.webp");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+
+  //Footer styles
+
+  
+  /*Footer banner styles*/
+.footer-banner {
+    background-image: url(../../public/img/footer-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(40, 40, 40);
+    background-blend-mode: soft-light;
+    display: flex;
+}
+
+/*Set background image for footer banner*/
+.safe-contacs {
+    display: none;
+}
+
+/*Styles for the Juntana logo*/
+.Juntana-logo {
+    width: 18rem;
+    height: 18rem;
+}
+
+/*Styles for the copyright text*/
+.copyrigth {
+    color: white;
+}
+
+/*From here start the decoration of the desktop view*/
+
+/*Media query for screens wider than 768px*/
+@media(min-width:768px) {
+    
+    /*Show safe contacts and list items on larger screens*/    
+    .safe-contacs,li {
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+
+
+    /*Adjust safe contacts section for larger screens*/
+    .safe-contacs {
+        margin-top: 7rem;
+        width: 12rem;
+        height: 18rem;
+    }
+
+    /*Adjust copyright text for larger screens*/
+    .copyrigth{
+        display: flex;
+        flex-wrap: wrap;
+        width: 12rem;
+    }
+}
+
+//Burble styles
+
+
+/*Reset of margins and fills, and configuration of box-sizing*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*CSS Variables for Custom Colors*/
+:root{
+    --juntana-button-info-color:#8E0E1D;
+    --juntana-button-info-hover:#BE092D;
+}
+
+/*Hide the default checkbox*/
+#btn-deploy{
+    display: none;
+}
+
+/*Section Container Configuration*/
+.container{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/*Style of social links and the "wechat" button*/
+.redes a, .btn-deploy label{
+    display: block;
+    text-decoration: none;
+    background: var(--juntana-button-info-color);
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+}
+/*Color change when hovering over social links*/
+.redes a:hover{
+    background:var(--juntana-button-info-hover);
+    color: #cc2b2b;
+}
+/*Initial Setup of Social Links (Hidden)*/
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/*Show social links when checkbox is selected*/
+#btn-deploy:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+
+/*Style of the "wechat" button*/
+.btn-deploy label{
+    cursor: pointer;
+    background: var(--juntana-button-info-color);
+    font-size: 23px;
+}
+
+/*Rotation of the "wechat" button when the checkbox is selected*/
+#btn-deploy:checked ~ .btn-deploy label{
+    transform: rotate(135deg);
+    font-size: 25px;
+}

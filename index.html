@@ -35,12 +35,46 @@
   <body>
      <header></header>
      <main>
-      <div class="container py-4 px-3 mx-auto">
-        <h1>Hello, Bootstrap and Vite!</h1>
-        <button class="btn btn-primary">Primary button</button>
-      </div>
      </main>
-     <footer></footer>
+     
+     <!-- Footer section -->
+    <footer>
+
+      <!-- Section containing the footer content with a top border and custom footer banner -->
+      <section class="my-5 border-top footer-banner">
+
+          <!-- Column for the logo and copyright text -->
+          <div class="col mb-3">
+
+              <!-- Juntana logo image -->
+              <img src="/public/img/Logo-completo.png" class="Juntana-logo" alt="Juntana-logo">
+              <p class="copyrigth">&copy;2024 JUNTANA Todos los derechos reservados Medellín-Colombia</p>
+          </div>
+
+          <!-- div column for "Sitios Estatales" with a list of state sites -->
+          <div class="col mb-3 safe-contacs">
+              <h5>Sitios Estatales</h5>
+              <ul class="nav flex-column">
+                  <li class="nav-item mb-2">Policia Nacional</li>
+                  <li class="nav-item mb-2">Ministerio de justicia</li>
+                  <li class="nav-item mb-2">Ministerio de turismo</li>
+                  <li class="nav-item mb-2">Gaula</li>
+              </ul>
+          </div>
+
+          <!-- div Column for "sedes" with a list of locations -->
+          <div class="col mb-3 safe-contacs">
+              <h5>sedes</h5>
+              <ul class="nav flex-column">
+                  <li class="nav-item mb-2">Miami</li>
+                  <li class="nav-item mb-2">Medellín</li>
+                  <li class="nav-item mb-2">Paris</li>
+                  <li class="nav-item mb-2">Amsterdam</li>
+              </ul>
+          </div>
+         
+      </section>
+  </footer>
      <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>
