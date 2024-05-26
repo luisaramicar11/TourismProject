@@ -1,2 +1,277 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+/*Formateo del html*/
+html{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Estilos usados en plansTourism.html */
+.plansTourism{
+    font-family: "Montserrat", sans-serif;
+}
+.btn-custom {
+    background-color: #B70044;
+    font-size: 1rem;
+}
+
+.btn-buy-plan{
+    background-color: #B70044;
+    color:#fff;
+    padding: 0.5rem;
+}
+
+.btn-custom:hover {
+    background-color: #B7004495;
+}
+
+.carousel-plansTourism h2{
+    font-size: 1rem;
+    text-align: center;
+}
+.carousel-plansTourism h3{
+    font-size: 0.5rem;
+    width: 80%;
+}
+
+.btn-circle {
+    width: 1rem !important;
+    height: 1rem !important;
+    border-radius: 50% !important;
+    background-color: #B70044;
+  }
+
+.btn-carousel{
+    background-color: #B70044;
+    color: white;
+    cursor: pointer;
+}
+
+.carousel-item{
+    height: 50vh;
+}
+
+/* Estilos usados en stripe-checkout.js */
+.card{
+    height: 22rem;
+}
+.card-img-top{
+    height: 60%;
+}
+.card-body{
+    height: 40%;
+    background-color: #D9D9D9;
+}
+.card-price{
+    background-color: #828282;
+    width: 12rem;
+    padding: 1rem;
+    color:white;
+    font-size: 1rem;
+    font-weight:600;
+}
+.icon-calendar{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.card-place{
+    font-size: 1rem;
+}
+.community{
+    color: #B70044;
+    font-weight: bold;
+}
+.place{
+    font-weight: 500;
+}
+.duration{
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.container-cards-plan{
+    width: 90%;
+    margin: 0 auto;
+    gap:3rem
+}
+.container-cards{
+    width: 100%;
+}
+
+/* Estilos usados en planCummunity.html */
+
+.hero-image {
+    background-image: url('./../../public/img/amazonas.webp');
+    background-size: cover;
+    background-position: center;
+    min-height: 19rem;
+    position: relative;
+    padding: 3rem;
+    width: 100%;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.hero-content h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+.hero-content h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.hero-content p{
+    display: none;
+}
+.hero-opacity{
+    position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7); /* Cambia la opacidad aquí */
+            z-index: 1;
+}
+.row{
+    height: inherit !important;;
+}
+.images{
+    width: 100%;
+    height: auto;
+}
+@media (min-width: 1000px) {
+    .hero-content h1{
+        font-size: 4rem;
+    }
+    .hero-content h2{
+        font-size:3rem;
+ 
+    }
+    .hero-content p{
+        font-size: 2em;
+        display: block;
+
+    font-weight: 500;
+    color: white;
+
+    }
+    .hero-content{
+        padding: 6rem;
+        padding-top: 10rem;
+        padding-left: 0rem;
+    }
+    .images{
+        width: 25%
+    }
+    .container-images{
+     padding: 3rem;
+    }
+    .accordion-body{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .accordion-body p{
+        width: 50%;
+    }
+    .accordion-body img{
+        width: 50%;
+    }
+    .list-style-title{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #B70044;
+    }
+    .container-description-plan{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .title-description-plan{
+        padding-left: 6rem;
+        padding-top: 3rem;
+    }
+}
+
+.list-includes{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-includes li i{
+    margin-right: 0.7rem;
+    color: #B70044;
+}
+.list-style-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #B70044;
+}
+.bg-custom-list-includes{
+    background-color: #D9D9D9;
+    padding: 1rem;
+    margin: 3rem;
+}
+
+.itinerary{
+    padding-left: 3rem;
+    padding-bottom: 0;
+    padding-top: 1rem;
+}
+    
+.accordion-button{
+    background-color: #D9D9D9;
+}
+.accordion{
+    margin: 3rem;
+}
+
+.title-plan{
+    font-size: 4rem;
+    color:hsl(338, 100%, 36%)
+}
+
+.accordion{
+    border-radius: 0;
+}
+
+.border-accordion{
+    border-radius: 0;
+}
+
+.description-plan{
+    background-color: #B7004450;
+}
+
+.title-description-plan{
+    padding-top: 3rem;
+    padding-left: 4rem;
+}
+
+/* Estilos usados en error404.html, stripe-cancel.html y stripe-success.html*/
+.cover-container{
+    background-color: #B70044;
+    color:#fff;
+    height: 100vh;
+}
+
+
+
