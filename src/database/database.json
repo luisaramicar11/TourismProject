@@ -1,377 +1,525 @@
 {
-    "itineraries": [
-      {
-        "community_name": "Wayuu",
-        "defining_phrase": "Tejedores del Desierto",
-        "importance_description": "La comunidad Wayuu es conocida por su impresionante habilidad en la artesanía, especialmente en la elaboración de mochilas y hamacas. Su cultura rica y vibrante se destaca en la árida región de La Guajira.",
-        "why_know_community": "Conocer a la comunidad Wayuu permite apreciar su resistencia en un entorno desafiante y su increíble habilidad artesanal. Su modo de vida y tradiciones son una manifestación única de adaptación y creatividad en el desierto.",
-        "representative_phrase": "En cada hilo, tejemos nuestra historia y nuestra identidad.",
-        "images": [
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-        ],
-        "plan_description": {
-          "travel_time": "3 días, 2 noches",
-          "suitable_for_groups": true,
-          "includes_native_guide": true,
-          "unique_experiences": "Talleres de tejido, visitas a rancherías, degustación de gastronomía tradicional"
-        },
-        "activity_itinerary": {
-          "day_1": {
-            "description": "Llegada y bienvenida en la ranchería. Introducción a la cultura Wayuu. Taller de tejido de mochilas. Cena tradicional y alojamiento en rancherías.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_2": {
-            "description": "Visita a una ranchería vecina. Participación en actividades cotidianas. Narración de historias y leyendas Wayuu.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_3": {
-            "description": "Desayuno y visita a un mercado artesanal. Despedida y regreso a la ciudad de origen.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          }
-        }
+  "itineraries": [
+    {
+      "community_name": "Experiencia Nasa",
+      "defining_phrase": "Un viaje inolvidable a las tradiciones ancestrales y paisajes majestuosos del suroccidente colombiano, donde la hospitalidad y la sabiduría indígena te esperan.",
+      "importance_description": "Adentrate en un mundo donde la tradición y la modernidad coexisten armoniosamente, ofreciendo a los visitantes una perspectiva renovada sobre la importancia de la diversidad cultural y el respeto por la naturaleza.",
+      "why_know_community": "Una oportunidad única para conectarse con una de las culturas indígenas más vibrantes y resilientes de Colombia. Estan invitados a descubrir la riqueza cultural, la sabiduría ancestral y la belleza natural de los territorios Nasa.",
+      "representative_phrase": "Nuestra fuerza nace de la tierra y el espíritu de nuestros ancestros.",
+      "images": [
+        "https://www.magazincnc.com/wp-content/uploads/2017/07/embalse-salvagina.jpg",
+        "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/6FUXNWIDGJCYZHXQHCETKSP2EI.jpg",
+        "https://www.elespectador.com/resizer/ulYHP_4EUoJemMSnjGFfEVlbYQg=/631x420/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/7VAXWFLQVZBLVLZVZNMEZ6GG7M.jpg",
+        "https://www.magazincnc.com/wp-content/uploads/2017/02/guapi-turismo.jpg"
+      ],
+      "plan_description": {
+        "travel_time": "3 días, 2 noches",
+        "suitable_for_group": "Se realiza en grupo",
+        "includes_native_guide": "Incluye guía nativo profesional",
+        "unique_experiences": "Talleres de medicina tradicional, visitas a comunidades Nasa, participación en rituales ancestrales"
       },
-      {
-        "community_name": "Comunidad Wayuu",
-        "defining_phrase": "Tejedores del Desierto",
-        "importance_description": "La comunidad Wayuu es conocida por su impresionante habilidad en la artesanía, especialmente en la elaboración de mochilas y hamacas. Su cultura rica y vibrante se destaca en la árida región de La Guajira.",
-        "why_know_community": "Conocer a la comunidad Wayuu permite apreciar su resistencia en un entorno desafiante y su increíble habilidad artesanal. Su modo de vida y tradiciones son una manifestación única de adaptación y creatividad en el desierto.",
-        "representative_phrase": "En cada hilo, tejemos nuestra historia y nuestra identidad.",
-        "images": [
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-        ],
-        "plan_description": {
-          "travel_time": "3 días, 2 noches",
-          "suitable_for_groups": true,
-          "includes_native_guide": true,
-          "unique_experiences": "Talleres de tejido, visitas a rancherías, degustación de gastronomía tradicional"
+      "activity_itinerary": {
+        "day_1": {
+          "nameDay": "Día 1.Llegando a Popayan",
+          "description": {
+            "act_1": "07:00: Encuentro en el Aeropuerto Internacional José María Córdova (Medellín) para tomar vuelo desde Medellín a Popayán (aproximadamente 1 hora y 20 minutos).",
+            "act_2": "09:50: Llegada al Aeropuerto Guillermo León Valencia (Popayán), y traslado al hotel en Popayán y check-in..",
+            "act_3": "12:00: Almuerzo en el hotel.",
+            "act_4": "13:00: Tour por el centro histórico de Popayán, visitando lugares como el Puente del Humilladero, la Torre del Reloj y la Iglesia de San Francisco.",
+            "act_5": "17:00: Cuenteria, mitos y leyendas alrededor de la fogota y cena con la comunidad Nasa",
+            "act_6": "20:00: Translado al hotel"
+          },
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/Hermoso_Atardecer_en_Popay%C3%A1n_%284279606793%29.jpg"
         },
-        "activity_itinerary": {
-          "day_1": {
-            "description": "Llegada y bienvenida en la ranchería. Introducción a la cultura Wayuu. Taller de tejido de mochilas. Cena tradicional y alojamiento en rancherías.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+        "day_2": {
+          "nameDay": "Día 2. Uno con la naturaleza",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel y posterior translado a la comunidad.",
+            "act_2": "10:00: Recepción de bienvenida por parte de la comunidad Nasa, degustación de una deliciosa chicha.",
+            "act_3": "12:30: Almuerzo tradicional Nasa.",
+            "act_4": "14:00: Participación en la Ceremonia del Inti Raymi: Los visitantes se unirán a la comunidad en esta celebración, que incluye danzas, música, ofrendas y rituales que honran al sol y la naturaleza..",
+            "act_5": "17:00: Cuenteria, mitos y leyendas alrededor de la fogota y cena con la comunidad Nasa",
+            "act_6": "19:00: Retorno al hotel."
           },
-          "day_2": {
-            "description": "Visita a una ranchería vecina. Participación en actividades cotidianas. Narración de historias y leyendas Wayuu.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_3": {
-            "description": "Desayuno y visita a un mercado artesanal. Despedida y regreso a la ciudad de origen.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          }
-        }
-      },
-      {
-        "community_name": "Comunidad Arhuaco",
-        "defining_phrase": "Guardianes de la Sierra",
-        "importance_description": "Los Arhuacos son conocidos por su profunda espiritualidad y su conexión con la Sierra Nevada de Santa Marta. Su cosmovisión está centrada en el equilibrio y la armonía con la naturaleza.",
-        "why_know_community": "Conocer a la comunidad Arhuaco permite entender su visión del mundo y su respeto por la naturaleza. Sus prácticas sostenibles y su sabiduría ancestral son esenciales para la conservación ambiental y cultural.",
-        "representative_phrase": "Vivimos en armonía con la Madre Tierra, cuidando de ella como ella cuida de nosotros.",
-        "images": [
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-        ],
-        "plan_description": {
-          "travel_time": "3 días, 2 noches",
-          "suitable_for_groups": true,
-          "includes_native_guide": true,
-          "unique_experiences": "Rituales de armonización, caminatas por la Sierra, talleres de tejido y confección de mochilas"
+          "image": "https://www.larepublica.net/storage/images/2021/07/04/20210704130153.ecoturismo-costa-rica.jpg?mrf-size=m"
         },
-        "activity_itinerary": {
-          "day_1": {
-            "description": "Llegada y bienvenida en la comunidad. Introducción a la cultura Arhuaca. Visita al templo sagrado. Cena tradicional y alojamiento en cabañas.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
+        "day_3": {
+          "nameDay": "Día 3. El deporte nos une",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel y posterior translado a la comunidad.",
+            "act_2": "10:00: Caminata guiada por los líderes Nasa a través de senderos naturales, con explicación sobre la flora y fauna local.",
+            "act_3": "14:00: Jornada de juegos tradicionales y deportes ancestrales Nasa",
+            "act_4": "15:00: Retorno a Popayán.",
+            "act_5": "17:00: Traslado al aeropuerto de Popayán y vuelo de regreso a Medellín.",
+            "act_6": "19:50: Llegada al Aeropuerto Internacional José María Córdova (Medellín)."
           },
-          "day_2": {
-            "description": "Caminata por la Sierra guiada por un mamo (líder espiritual). Taller de tejido de mochilas. Narración de mitos y leyendas Arhuacas.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_3": {
-            "description": "Desayuno y participación en un ritual de armonización. Despedida y regreso a la ciudad de origen.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          }
-        }
-      },
-      {
-        "community_name": "Comunidad Embera",
-        "defining_phrase": "Guardianes del Bosque",
-        "importance_description": "La comunidad Embera es conocida por su estrecha relación con el bosque tropical y sus conocimientos sobre plantas medicinales. Sus coloridas artesanías y bailes tradicionales son una parte vibrante de su cultura.",
-        "why_know_community": "Conocer a la comunidad Embera ofrece una inmersión en un estilo de vida sostenible y en armonía con el entorno natural. Su saber medicinal y cultural es un tesoro invaluable para la humanidad.",
-        "representative_phrase": "El bosque nos da vida, y nosotros cuidamos de él con todo nuestro ser.",
-        "images": [
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-        ],
-        "plan_description": {
-          "travel_time": "3 días, 2 noches",
-          "suitable_for_groups": true,
-          "includes_native_guide": true,
-          "unique_experiences": "Caminatas por el bosque, talleres de artesanía, ceremonias tradicionales"
-        },
-        "activity_itinerary": {
-          "day_1": {
-            "description": "Llegada y bienvenida en la comunidad. Introducción a la cultura Embera. Caminata por el bosque y reconocimiento de plantas medicinales. Cena tradicional y alojamiento en casas comunitarias.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_2": {
-            "description": "Taller de artesanía: creación de collares y pulseras. Participación en una ceremonia tradicional. Narración de historias y leyendas Embera.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_3": {
-            "description": "Desayuno y visita a una cascada sagrada. Despedida y regreso a la ciudad de origen.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          }
-        }
-      },
-      {
-        "community_name": "Comunidad Pastos",
-        "defining_phrase": "Herederos de los Andes",
-        "importance_description": "La comunidad Pastos es conocida por su rica tradición agrícola y sus coloridos trajes y danzas. Viven en los Andes, manteniendo prácticas agrícolas sostenibles y festividades culturales vibrantes.",
-        "why_know_community": "Conocer a la comunidad Pastos permite apreciar la herencia cultural andina y sus prácticas agrícolas sostenibles. Su música, danza y tradiciones agrícolas son un testimonio de la riqueza cultural de los Andes.",
-        "representative_phrase": "En la tierra andina cultivamos nuestra identidad y celebramos nuestra cultura.",
-        "images": [
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-        ],
-        "plan_description": {
-          "travel_time": "3 días, 2 noches",
-          "suitable_for_groups": true,
-          "includes_native_guide": true,
-          "unique_experiences": "Participación en festividades tradicionales, talleres de agricultura andina, recorridos por paisajes andinos"
-        },
-        "activity_itinerary": {
-          "day_1": {
-            "description": "Llegada y bienvenida en la comunidad. Introducción a la cultura Pastos. Participación en una danza tradicional. Cena andina y alojamiento en casas comunitarias.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_2": {
-            "description": "Taller de agricultura andina y visita a cultivos. Participación en una ceremonia de agradecimiento a la tierra. Narración de historias y mitos andinos.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_3": {
-            "description": "Desayuno y recorrido por los paisajes andinos. Despedida y regreso a la ciudad de origen.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          }
-        }
-      },
-      {
-        "community_name": "Comunidad Kogui",
-        "defining_phrase": "Guardianes de la Sierra Nevada",
-        "importance_description": "La comunidad Kogui es conocida por su profundo conocimiento ancestral y su relación armoniosa con la naturaleza. Son considerados los guardianes de la Sierra Nevada de Santa Marta, preservando tradiciones y sabiduría milenaria.",
-        "why_know_community": "Conocer a la comunidad Kogui nos permite aprender sobre una forma de vida que valora y protege el medio ambiente. Su cosmovisión y prácticas sostenibles ofrecen valiosas lecciones sobre la conservación y el respeto por la naturaleza. Además, su rica cultura y tradiciones son un patrimonio cultural invaluable que merece ser reconocido y preservado.",
-        "representative_phrase": "La tierra es nuestra madre y debemos cuidarla como cuidamos a nuestros hijos.",
-        "images": [
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-        ],
-        "plan_description": {
-          "travel_time": "3 días, 2 noches",
-          "suitable_for_groups": true,
-          "includes_native_guide": true,
-          "unique_experiences": "Participación en rituales sagrados, caminatas por la selva, talleres de artesanía tradicional"
-        },
-        "activity_itinerary": {
-          "day_1": {
-            "description": "Llegada y bienvenida en la comunidad. Introducción a la cultura Kogui. Visita al templo sagrado y explicación de los rituales. Cena tradicional y alojamiento en cabañas.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_2": {
-            "description": "Caminata por la selva guiada por un nativo, aprendizaje sobre plantas medicinales. Taller de artesanía: creación de mochilas tradicionales. Narración de historias ancestrales alrededor de una fogata.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_3": {
-            "description": "Desayuno y visita a una cascada sagrada. Despedida y regreso a la ciudad de origen.",
-            "image":  "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          }
-        }
-      },
-      {
-        "community_name": "Comunidad Huitoto",
-        "defining_phrase": "Hijos de la Selva Amazónica",
-        "importance_description": "La comunidad Huitoto es conocida por su rica tradición oral y su conocimiento de la selva amazónica. Su cosmovisión está estrechamente vinculada a la naturaleza y sus ciclos.",
-        "why_know_community": "Conocer a la comunidad Huitoto permite entender la relación simbiótica entre la naturaleza y la cultura. Sus prácticas de vida sostenible y su sabiduría ancestral son vitales para la conservación del Amazonas.",
-        "representative_phrase": "La selva nos habla, y nosotros escuchamos sus enseñanzas.",
-        "images": [
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-        ],
-        "plan_description": {
-          "travel_time": "4 días, 3 noches",
-          "suitable_for_groups": true,
-          "includes_native_guide": true,
-          "unique_experiences": "Exploración de la selva, narración de mitos y leyendas, participación en rituales chamánicos"
-        },
-        "activity_itinerary": {
-          "day_1": {
-            "description": "Llegada y asentamiento en la comunidad Huitoto. Recorrido introductorio por el poblado y encuentro con el chamán. Cena tradicional y alojamiento en malocas.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_2": {
-            "description": "Exploración de la selva con guías Huitoto. Observación de fauna y flora. Ritual de purificación dirigido por el chamán.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_3": {
-            "description": "Visita a una plantación de alimentos y aprendizaje sobre la agricultura Huitoto. Taller de artesanía y caza tradicional. Narración de historias y leyendas.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_4": {
-            "description": "Ceremonia de despedida y entrega de amuletos protectores. Regreso a la ciudad de origen.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          }
-        }
-      },
-      {
-        "community_name": "Comunidad Inca",
-        "defining_phrase": "Hijos del Sol",
-        "importance_description": "La comunidad Inca es conocida por su avanzado conocimiento en ingeniería y astronomía. Su legado incluye impresionantes construcciones y una rica tradición espiritual.",
-        "why_know_community": "Conocer a la comunidad Inca es aprender sobre una de las civilizaciones más avanzadas de América. Su arquitectura, agricultura y cosmovisión son una fuente de inspiración y conocimiento histórico.",
-        "representative_phrase": "El sol es nuestro padre, y su luz guía nuestro camino.",
-        "images": [
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-        ],
-        "plan_description": {
-          "travel_time": "5 días, 4 noches",
-          "suitable_for_groups": true,
-          "includes_native_guide": true,
-          "unique_experiences": "Visitas a sitios arqueológicos, participación en rituales solares, talleres de artesanía y agricultura andina"
-        },
-        "activity_itinerary": {
-          "day_1": {
-            "description": "Llegada y asentamiento en la comunidad Inca. Visita a un sitio arqueológico cercano. Cena tradicional andina y alojamiento en casas comunitarias.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_2": {
-            "description": "Participación en un ritual solar al amanecer. Taller de agricultura andina y técnicas de cultivo en terrazas. Narración de mitos y leyendas incas.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_3": {
-            "description": "Excursión a una ruina incaica importante. Taller de tejido y cerámica tradicional. Observación de las estrellas y explicación de la astronomía inca.",
-            "image":"https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_4": {
-            "description": "Visita a un mercado artesanal. Taller de medicina tradicional y herbolaria. Caminata por un antiguo camino inca.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_5": {
-            "description": "Ceremonia de despedida y entrega de recuerdos. Regreso a la ciudad de origen.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          }
-        }
-      },
-      {
-        "community_name": "Comunidad Ticuna",
-        "defining_phrase": "Guardianes del Río Amazonas",
-        "importance_description": "La comunidad Ticuna es una de las más grandes en la región del Amazonas. Son conocidos por sus rituales de iniciación y su profundo conocimiento del río y la selva.",
-        "why_know_community": "Conocer a la comunidad Ticuna permite apreciar la relación íntima entre cultura y naturaleza en el Amazonas. Sus rituales y conocimientos ancestrales son esenciales para la conservación del río y la selva.",
-        "representative_phrase": "El río es nuestro hogar y nuestra fuente de vida.",
-        "images": [
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg",
-            "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-        ],
-        "plan_description": {
-          "travel_time": "4 días, 3 noches",
-          "suitable_for_groups": true,
-          "includes_native_guide": true,
-          "unique_experiences": "Navegación por el Amazonas, participación en rituales de iniciación, exploración de la selva"
-        },
-        "activity_itinerary": {
-          "day_1": {
-            "description": "Llegada y bienvenida en la comunidad Ticuna. Navegación por el río Amazonas y reconocimiento del entorno. Cena tradicional y alojamiento en malocas.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_2": {
-            "description": "Exploración de la selva con guías Ticuna. Taller de pesca tradicional y preparación de alimentos. Participación en un ritual de iniciación.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_3": {
-            "description": "Visita a una comunidad vecina y aprendizaje sobre intercambios culturales. Taller de artesanía: creación de máscaras y trajes ceremoniales. Narración de mitos y leyendas Ticuna.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          },
-          "day_4": {
-            "description": "Desayuno y ceremonia de despedida. Navegación de regreso y retorno a la ciudad de origen.",
-            "image": "https://www.colombiatudestino.com/viajes/wp-content/uploads/2018/03/5.jpg"
-          }
+          "image": "https://956fm.boyaca.gov.co/wp-content/uploads/2021/12/IMG_20211216_082551.jpg"
         }
       }
-    ],
-    "plans": [
-        {
-            "name": "nasa",
-            "location": "cauca",
-            "price": 1400000,
-            "duration": "4 dias y 3 noches"
-        },
-        {
-            "name": "wayúu",
-            "location": "guajira",
-            "price": 1700000,
-            "duration": "5 dias y 4 noches"
-        },
-        {
-            "name": "arhuaco",
-            "location": "santa marta",
-            "price": 2000000,
-            "duration": "5 dias y 4 noches"
-        },
-        {
-            "name": "embera",
-            "location": "valle del cauca",
-            "price": 13000000,
-            "duration": "4 dias y 3 noches"
-        },
-        {
-            "name": "pastos",
-            "location": "nariño",
-            "price": 1900000,
-            "duration": "5 dias y 4 noches"
-        },
-        {
-            "name": "kogui",
-            "location": "santa marta",
-            "price": 2000000,
-            "duration": "5 dias y 4 noches"
-        },
-        {
-            "name": "ticuna",
-            "location": "amazonas",
-            "price": 2500000,
-            "duration": "5 dias y 4 noches"
-        },
-        {
-            "name": "huitoto",
-            "location": "amazonas",
-            "price": 2500000,
-            "duration": "5 dias y 4 noches"
-        },
-        {
-            "name": "inga",
-            "location": "amazonas",
-            "price": 2500000,
-            "duration": "5 dias y 4 noches"
-        }
-    ]
-  }
-  
-  
+    },
 
-  
+    {
+      "community_name": "Experiencia Huitoto en el Amazonas",
+      "defining_phrase": "Una inmersión en las tradiciones ancestrales y la exuberante naturaleza del Amazonas colombiano.",
+      "importance_description": "Descubre la riqueza cultural y la conexión espiritual en un entorno de biodiversidad única.",
+      "why_know_community": "Explora la cultura vibrante y resiliente de los Huitoto y conecta con la esencia misma de la selva amazónica.",
+      "representative_phrase": "Nuestra esencia fluye con los ríos y bosques de nuestra tierra.",
+      "images": [
+        "https://www.taleoi.com/sites/default/files/styles/node_principal/public/ambiente/imagen/huitoto.jpg?itok=KI38nFWH",
+        "https://grancolombiatours.com/wp-content/uploads/2023/05/amazon-wild-exotic.tour-1.jpg",
+        "https://portal.andina.pe/EDPfotografia/Thumbnail/2015/08/10/000308130W.jpg",
+        "https://img.freepik.com/foto-gratis/turistas-estan-felices-descansadas-cascada_1150-5657.jpg"
+      ],
+      "plan_description": {
+        "travel_time": "3 días, 2 noches",
+        "suitable_for_group": "Se realiza en grupo",
+        "includes_native_guide": "Incluye guía nativo profesional",
+        "unique_experiences": "Ceremonias ancestrales y exploración de la selva"
+      },
+      "activity_itinerary": {
+        "day_1": {
+          "nameDay": "Día 1. Llegada a Leticia",
+          "description": {
+            "act_1": "07:00: Encuentro en el Aeropuerto Internacional José María Córdova (Medellín) para tomar vuelo desde Medellín a Leticia (aproximadamente 2 horas y 30 minutos).",
+            "act_2": "10:30: Llegada al Aeropuerto Alfredo Vásquez Cobo (Leticia), y traslado al hotel en Leticia y check-in..",
+            "act_3": "12:00: Almuerzo en el hotel.",
+            "act_4": "13:00: Acompaña a los pescadores Witoto en una experiencia de pesca tradicional en los ríos amazónicos. ",
+            "act_5": "17:00: Noche cultural donde podrás compartir con los miembros de la comunidad Witoto a través de música, danzas, cuentos y leyendas, y cena.  ",
+            "act_6": "21:00: Translado al hotel"
+          },
+          "image": "https://grancolombiatours.com/wp-content/uploads/2023/05/amazon-wild-exotic.tour-1.jpg"
+        },
+        "day_2": {
+          "nameDay": "Día 2. Exploración de la naturaleza y ceremonia del Yagé",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel y posterior translado a la comunidad.",
+            "act_2": "10:00: Exploración Cascada Yahuarcaca.",
+            "act_3": "12:30: Almuerzo tradicional Huitoto.",
+            "act_4": "14:00: Participación en la Ceremonia del Yagé: Los visitantes se unirán a la comunidad en esta celebración, que incluye cantos, danzas, ofrendas y rituales que honran a la naturaleza.",
+            "act_5": "17:00: Cuenteria, mitos y leyendas alrededor de la fogata y cena con la comunidad Huitoto",
+            "act_6": "19:00: Retorno al hotel."
+          },
+          "image": "https://radionacional-v3.s3.amazonaws.com/s3fs-public/inline-images/1..CORTES%C3%8DA%20POSADA%20DE%20LOS%20ANDAK%C3%8DES.png"
+        },
+        "day_3": {
+          "nameDay": "Día 3. La madre Selva",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel y posterior translado a la comunidad.",
+            "act_2": "10:00: Caminata guiada por los líderes Huitoto a través de senderos naturales, con explicación sobre la flora y fauna local.",
+            "act_3": "12:00: Almuerzo tradicional con los witoto.",
+            "act_4": "15:00: Ceremonia del Tahuampa como expresión de la espiritualidad y la conexión con la naturaleza que es fundamental en la cosmovisión Witoto.",
+            "act_5": "18:00: Traslado al hotel y salida al aeropuerto de Leticia",
+            "act_6": "20:00: Vuelo de regreso a Medellín y llegada al Aeropuerto Internacional José María Córdova (Medellín)."
+          },
+          "image": "https://img.freepik.com/foto-gratis/mujer-sentada-postura-yoga-al-aire-libre_23-2147617404.jpg?size=626&ext=jpg&ga=GA1.1.1687694167.1713830400&semt=ais"
+        }
+      }
+    },
+
+    {
+      "community_name": "Experiencia Witoto en el Amazonas",
+      "defining_phrase": "Una inmersión en las tradiciones ancestrales y la exuberante naturaleza del Amazonas colombiano.",
+      "importance_description": "Descubre la riqueza cultural y la conexión espiritual en un entorno de biodiversidad única.",
+      "why_know_community": "Explora la cultura vibrante y resiliente de los Huitoto y conecta con la esencia misma de la selva amazónica.",
+      "representative_phrase": "Nuestra esencia fluye con los ríos y bosques de nuestra tierra.",
+      "images": [
+        "https://www.latercera.com/resizer/B8wocs3Ghmi2eF50ydIRrtI0WKY=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/EXO64WTUY5CDDMNISRDRS7WB7Q.jpg",
+        "https://imagenes.muyinteresante.es/files/image_414_276/uploads/2024/01/17/65a794221c9be.jpeg",
+        "https://content.cuerpomente.com/medio/2021/04/08/mujer-en-la-jungla_b84e35ba_1200x1200.jpg",
+        "https://previews.123rf.com/images/koldunovaaa/koldunovaaa1801/koldunovaaa180100052/93469248-turista-cauc%C3%A1sico-en-impermeable-verde-con-mono-salvaje-en-su-hombro.jpg"
+      ],
+      "plan_description": {
+        "travel_time": "3 días, 2 noches",
+        "suitable_for_group": "Se realiza en grupo",
+        "includes_native_guide": "Incluye guía nativo profesional",
+        "unique_experiences": "Ceremonias ancestrales y exploración de la selva"
+      },
+      "activity_itinerary": {
+        "day_1": {
+          "nameDay": "Día 1. Llegada a Leticia",
+          "description": {
+            "act_1": "07:00: Encuentro en el Aeropuerto Internacional José María Córdova (Medellín) para tomar vuelo desde Medellín a Leticia (aproximadamente 2 horas y 30 minutos).",
+            "act_2": "10:30: Llegada al Aeropuerto Alfredo Vásquez Cobo (Leticia), y traslado al hotel en Leticia y check-in..",
+            "act_3": "12:00: Almuerzo en el hotel.",
+            "act_4": "13:00: Translado y bienvenida en la comunidad huitoto.",
+            "act_5": "17:00: Observación de Estrellas y Astronomía y cena alrededor de una fogata.",
+            "act_6": "20:00: Traslado al hotel"
+          },
+          "image": "https://www.shutterstock.com/image-photo/horizontal-snapshot-couple-tourists-spending-260nw-2058147767.jpg"
+        },
+        "day_2": {
+          "nameDay": "Día 2. Exploración de la naturaleza y ceremonia del Yagé",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel y posterior traslado a la comunidad.",
+            "act_2": "10:00: Exploración de la selva acompañados por guías huitoto, visitando cascadas y cuevas ocultas.",
+            "act_3": "12:30: Almuerzo tradicional Witoto.",
+            "act_4": "14:00: Participación en la Ceremonia del Yagé: Los visitantes se unirán a la comunidad en esta celebración, que incluye cantos, danzas, ofrendas y rituales que honran a la naturaleza.",
+            "act_5": "17:00: Noche de historias y leyendas alrededor de la fogata y cena con la comunidad Witoto.",
+            "act_6": "19:00: Retorno al hotel."
+          },
+          "image": "https://peru.info/archivos/publicacion/267-imagen-10484118112021.jpg"
+        },
+        "day_3": {
+          "nameDay": "Día 3. Inmersos en la selva",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel y posterior traslado a la comunidad.",
+            "act_2": "10:00: Caminata guiada por los líderes Huitoto a través de senderos naturales, con explicación sobre la flora y fauna local.",
+            "act_3": "12:00: Almuerzo tradicional con los Huitoto.",
+            "act_4": "15:00: Intercambio cultural con la comunidad.",
+            "act_5": "17:00: Traslado al hotel y salida al aeropuerto de Leticia.",
+            "act_6": "19:50: Vuelo de regreso a Medellín y llegada al Aeropuerto Internacional José María Córdova (Medellín)."
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/b4/1d/5b/caption.jpg?w=1200&h=700&s=1&cx=1200&cy=700&chk=v1_5991e5d8e799c0f1f980"
+        }
+      }
+    },
+
+    {
+      "community_name": "Experiencia Ticuna en el Amazonas",
+      "defining_phrase": "Una inmersión en las tradiciones ancestrales y la exuberante naturaleza del Amazonas colombiano.",
+      "importance_description": "Descubre la riqueza cultural y la conexión espiritual en un entorno de biodiversidad única.",
+      "why_know_community": "Explora la cultura vibrante y resiliente de los Ticuna y conecta con la esencia misma de la selva amazónica.",
+      "representative_phrase": "Nuestro espíritu vive en armonía con la selva y los ríos que nos rodean.",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnUMtIWvPCFaL-6eRcywBEppmv_Ia2is4GCw&usqp=CAU",
+        "https://www.manitiexpeditions.com/wp-content/uploads/2018/06/wildlife-observation-excursions-1479x750.jpg",
+        "https://selvavidatravel.com/wp-content/uploads/2023/08/Grupo-de-turista-navegando-por-el-yasuni.jpg",
+        "https://www.shutterstock.com/image-photo/native-tribal-man-swimming-amazonia-600nw-2102452261.jpg"
+      ],
+      "plan_description": {
+        "travel_time": "3 días, 2 noches",
+        "suitable_for_group": "Se realiza en grupo",
+        "includes_native_guide": "Incluye guía nativo profesional",
+        "unique_experiences": "Ceremonias ancestrales y exploración de la selva"
+      },
+      "activity_itinerary": {
+        "day_1": {
+          "nameDay": "Día 1. Un cielo verde",
+          "description": {
+            "act_1": "07:00: Encuentro en el Aeropuerto Internacional José María Córdova (Medellín) para tomar vuelo desde Medellín a Leticia (aproximadamente 2 horas y 30 minutos).",
+            "act_2": "10:30: Llegada al Aeropuerto Alfredo Vásquez Cobo (Leticia), y traslado al hotel en Leticia y check-in.",
+            "act_3": "12:00: Almuerzo en el hotel.",
+            "act_4": "13:00: Translado y bienvenida en la comunidad Ticuna.",
+            "act_5": "17:00: Observación de Aves y Cena alrededor de una fogata.",
+            "act_6": "20:00: Traslado al hotel"
+          },
+          "image": "https://www.glamping-hotels.com/wp-content/uploads/2015/01/glamping-hotels-avistamiento-de-aves1-870x555.jpg"
+        },
+        "day_2": {
+          "nameDay": "Día 2. Exploración de la naturaleza y ceremonia del Ayahuasca",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel y posterior traslado a la comunidad.",
+            "act_2": "10:00: Exploración de la selva acompañados por guías Ticuna, visitando cascadas y sitios sagrados.",
+            "act_3": "12:30: Almuerzo tradicional Ticuna.",
+            "act_4": "14:00: Participación en la Ceremonia del Ayahuasca: Los visitantes se unirán a la comunidad en esta celebración, que incluye cantos, danzas, ofrendas y rituales que honran a la naturaleza.",
+            "act_5": "17:00: Participación en la Ceremonia del Fuego Sagrado: .",
+            "act_6": "19:00: Retorno al hotel."
+          },
+          "image": "https://www.peru.travel/Contenido/Experiencia/Imagen/es/63/1.2/Trekking%20en%20la%20selva.jpg"
+        },
+        "day_3": {
+          "nameDay": "Día 3. Somos verde",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel y posterior traslado a la comunidad.",
+            "act_2": "10:00: Caminata guiada por los líderes Ticuna a través de senderos naturales, con explicación sobre la flora y fauna local.",
+            "act_3": "12:00: Almuerzo tradicional con los Ticuna.",
+            "act_4": "15:00: Ceremonia de Sanación (explorando plantas medicinales y practicas tradionales)",
+            "act_5": "17:00: Traslado al hotel y salida al aeropuerto de Leticia.",
+            "act_6": "19:50: Vuelo de regreso a Medellín y llegada al Aeropuerto Internacional José María Córdova (Medellín)."
+          },
+          "image": "https://andeangreattreks.com/wp-content/uploads/AYAHUASCA-RETREAT-IN-AMAZON-JUNGLE-1.jpg"
+        }
+      }
+    },
+
+    {
+      "community_name": "Experiencia Kogui en la Sierra Nevada",
+      "defining_phrase": "Una inmersión en las tradiciones ancestrales y la espiritualidad de la comunidad Kogui en la majestuosa Sierra Nevada de Santa Marta.",
+      "importance_description": "Descubre la riqueza cultural y la conexión espiritual en un entorno de biodiversidad única, considerado sagrado por los Kogui.",
+      "why_know_community": "Explora la cosmovisión única de los Kogui y su compromiso con la protección de la naturaleza y la preservación de la armonía en el mundo.",
+      "representative_phrase": "Nuestro espíritu está entrelazado con la tierra, el mar y las montañas de nuestra sagrada Sierra Nevada.",
+      "images": [
+        "https://cloudfront-us-east-1.images.arcpublishing.com/semana/5YTZNMH2DZADLOMNYH2V25M2OI.jpg",
+        "https://lajorara.com/wp-content/uploads/2020/06/Aseguranza-inidgena-con-arhuacos-durante-viaje-en-Santa-Marta.jpg",
+        "https://i.ytimg.com/vi/KK3Xl3LrcEU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDkS99_rQeQfwA4ifuzKI8R9JNxug",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnJ-1szG8rRnE6OdcfZzdY9GkGyTKRFlMHkw&usqp=CAU"
+      ],
+      "plan_description": {
+        "travel_time": "3 días, 2 noches",
+        "suitable_for_group": "Se realiza en grupo",
+        "includes_native_guide": "Incluye guía Kogui profesional",
+        "unique_experiences": "Ceremonias sagradas y senderismo espiritual"
+      },
+      "activity_itinerary": {
+        "day_1": {
+          "nameDay": "Mar y cielo",
+          "description": {
+            "act_1": "07:00: Encuentro en el Aeropuerto Internacional José María Córdova (Medellín).",
+            "act_2": "09:00: Vuelo desde Medellín a Santa Marta.",
+            "act_3": "11:00: Traslado al hotel en Santa Marta y check-in.",
+            "act_4": "12:00: Almuerzo en el hotel.",
+            "act_5": "13:00: Ascenso a la comunidad Kogui con guías locales. Bienvenida por parte de la comunidad y ceremonia de purificación.",
+            "act_6": "19:00: Translado al hotel y cena"
+          },
+          "image": "https://www.turismodenaturaleza.co/fotosprestadores/ciudadperdida1-870-490.jpg"
+        },
+        "day_2": {
+          "nameDay": "Exploración espiritual",
+          "description": {
+            "act_1": "06:00: Desayuno en el hotel y posterior translado a la comunidad Kogui.",
+            "act_2": "07:00: Senderismo espiritual por la sierra, visitando lugares sagrados y cascadas.",
+            "act_3": "12:30: Almuerzo en la naturaleza.",
+            "act_4": "14:00: Participación en una ceremonia de conexión con la naturaleza, dirigida por los líderes espirituales Kogui.",
+            "act_5": "17:00: Tiempo libre para reflexión y descanso.",
+            "act_6": "19:00: Cena con los kogui y posterior translado al hotel."
+          },
+          "image": "https://static.roadtrip.travel/media/roadtrips/inmersion-en-comunidad-kogui-en-la-sierra-nevada-de-santa-marta-720-1766a10.jpg"
+        },
+        "day_3": {
+          "nameDay": "Despedida y retorno",
+          "description": {
+            "act_1": "06:00: Desayuno en el hotel, y posterior translado a la comunidad kogui.",
+            "act_2": "07:00: Ceremonia de despedida en el rio y agradecimiento a la comunidad Kogui.",
+            "act_3": "09:00: Descenso de la sierra hacia la base.",
+            "act_4": "12:00: Almuerzo en la base de la sierra.",
+            "act_5": "14:00: Traslado de regreso a Santa Marta.",
+            "act_6": "17:00: Llegada al Aeropuerto Internacional Simón Bolívar (Santa Marta) para vuelos de regreso."
+          },
+          "image": "https://img.elcomercio.pe/files/ec_article_multimedia_gallery/uploads/2021/01/24/600e45e69af45.jpeg"
+        }
+      }
+    },
+
+    {
+      "community_name": "Experiencia Pastos en Nariño",
+      "defining_phrase": "Una inmersión en las tradiciones ancestrales y la rica cultura de la comunidad Pastos en las montañas de Nariño.",
+      "importance_description": "Descubre la sabiduría ancestral y la conexión con la naturaleza en un entorno culturalmente vibrante y paisajes impresionantes.",
+      "why_know_community": "Explora la cultura resiliente y las prácticas tradicionales de los Pastos y conecta con la historia y la naturaleza de Nariño.",
+      "representative_phrase": "Nuestra herencia vive en cada montaña, en cada tradición, y en cada corazón de nuestra gente.",
+      "images": [
+        "https://colombia.unmissions.org/sites/default/files/styles/2_columns/public/foto_marcos_marcada_7_1_0.jpg?itok=fb2XY--B",
+        "https://www.turismopasto.com/wp-content/uploads/2018/03/laguna-cocha-turismo-pasto-700x466.jpg",
+        "https://comprarenipiales.com/wp-content/uploads/2023/05/importancia-turismo-narino.jpg",
+        "https://comprarenipiales.com/wp-content/uploads/2023/05/consejos-turismo-narino.jpg"
+      ],
+      "plan_description": {
+        "travel_time": "3 días, 2 noches",
+        "suitable_for_group": "Se realiza en grupo",
+        "includes_native_guide": "Incluye guía nativo profesional",
+        "unique_experiences": "Ceremonias tradicionales y exploración de paisajes naturales"
+      },
+      "activity_itinerary": {
+        "day_1": {
+          "nameDay": "En las montañas de Nariño",
+          "description": {
+            "act_1": "07:00: Encuentro en el Aeropuerto Internacional José María Córdova (Medellín).",
+            "act_2": "09:00: Vuelo desde Medellín a Pasto.",
+            "act_3": "10:30: Llegada al Aeropuerto Antonio Nariño (Pasto) y traslado al hotel en Pasto para check-in.",
+            "act_4": "12:00: Almuerzo en el hotel.",
+            "act_5": "14:00: Traslado y bienvenida en la comunidad Pastos. Creemonia de meditación y sanación.",
+            "act_6": "19:00: Cena tradicional Pastos y regreso al hotel."
+          },
+          "image": "https://www.esariri.com/wp-content/uploads/2023/01/Turismo-en-Tumaco.jpg"
+        },
+        "day_2": {
+          "nameDay": "Exploración cultural y natural",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel.",
+            "act_2": "08:00: Traslado a la comunidad Pastos.",
+            "act_3": "09:00: Participación en la Ceremonia del Sol, una práctica espiritual que honra al sol y la naturaleza.",
+            "act_4": "12:00: Almuerzo tradicional con la comunidad.",
+            "act_5": "14:00: Caminata guiada por los líderes Pastos a través de los paisajes montañosos, con explicación sobre la flora y fauna local.",
+            "act_6": "16:00: Actividad de nado en las aguas termales de Cumbal, conocida por sus propiedades curativas. Finalizado se realiza el translado al hotel"
+          },
+          "image": "https://situr.narino.gov.co/storage/Clientes/situr_narino/principal/imagenes/contenidos/4660-11_Termal_de_Chiles.jpg"
+        },
+        "day_3": {
+          "nameDay": "Regreso a Medellín",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel.",
+            "act_2": "08:00: Traslado a la comunidad Pastos.",
+            "act_3": "09:00: Taller de artesanías tradicionales, donde los visitantes pueden aprender sobre las técnicas ancestrales y crear su propio recuerdo.",
+            "act_4": "12:00: Almuerzo con la comunidad.",
+            "act_5": "14:00: Visita al Volcán Galeras, un sitio sagrado para la comunidad.",
+            "act_6": "18:00: Regreso al hotel y salida al aeropuerto para regreso a Medellín."
+          },
+          "image": "https://cdn.colombia.com/sdi/2013/01/04/el-volcan-galeras-909464.jpg"
+        }
+      }
+    },
+
+    {
+      "community_name": "Experiencia Emberá",
+      "defining_phrase": "Sumérgete en las tradiciones ancestrales y la exuberante selva del Chocó colombiano.",
+      "importance_description": "Descubre la riqueza cultural y la conexión con la naturaleza en un entorno de biodiversidad impresionante.",
+      "why_know_community": "Explora la cultura vibrante y resiliente de los Emberá y conecta con la esencia de la selva tropical del Chocó.",
+      "representative_phrase": "Nuestra herencia vive en cada río, en cada árbol, y en cada corazón de nuestra gente.",
+      "images": [
+        "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6c/29/5a.jpg",
+        "https://www.lacoladerata.co/wp-content/uploads/2022/09/kumba-3.jpg",
+        "https://es.mongabay.com/wp-content/uploads/sites/25/2017/03/colombia-embera-chami.jpg",
+        "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/3b/22/1a.jpg"
+      ],
+      "plan_description": {
+        "travel_time": "3 días, 2 noches",
+        "suitable_for_group": "Se realiza en grupo",
+        "includes_native_guide": "Incluye guía nativo profesional",
+        "unique_experiences": "Ceremonias tradicionales y exploración de la selva"
+      },
+      "activity_itinerary": {
+        "day_1": {
+          "nameDay": "Día 1. Llegada a Quibdó",
+          "description": {
+            "act_1": "07:00: Encuentro en el Aeropuerto Internacional José María Córdova (Medellín).",
+            "act_2": "09:00: Vuelo desde Medellín a Quibdó.",
+            "act_3": "10:00: Llegada al Aeropuerto El Caraño (Quibdó) y traslado al hotel en Quibdó para check-in.",
+            "act_4": "12:00: Almuerzo en el hotel.",
+            "act_5": "13:00: Traslado y bienvenida en la comunidad Emberá. Caminata guiada por los líderes Emberá a través de los paisajes selváticos, con explicación sobre la flora y fauna local.",
+            "act_6": "19:00: Cena tradicional Emberá y regreso al hotel."
+          },
+          "image": "https://www.ultimasnoticias.ec/files/article_main/uploads/2019/07/26/5d3b1d4968b6c.jpeg"
+        },
+        "day_2": {
+          "nameDay": "Día 2. Exploración cultural y natural",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel.",
+            "act_2": "08:00: Traslado a la comunidad Emberá.",
+            "act_3": "09:00: Participación en la Ceremonia del Bëtsik: una práctica espiritual que honra a los ancestros y la naturaleza.",
+            "act_4": "12:00: Almuerzo tradicional con la comunidad.",
+            "act_5": "16:00: Visita a la Cascada de Tutunendo, un sitio sagrado para la comunidad.",
+            "act_6": "19:00: Cena y noche de historias y leyendas alrededor de la fogata. Retorno al hotel"
+          },
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIto96F19Rhv1S2aDdpTVOkLA9CcoXjqBCPQ&usqp=CAU"
+        },
+        "day_3": {
+          "nameDay": "Día 3. Artesanías y regreso a Medellín",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel.",
+            "act_2": "08:00: Traslado a la comunidad Emberá.",
+            "act_3": "09:00: Taller de artesanías tradicionales, donde los visitantes pueden aprender sobre las técnicas ancestrales y crear su propio recuerdo.",
+            "act_4": "12:00: Almuerzo con la comunidad.",
+            "act_5": "13:00: Participación en la Ceremonia del Jaibaná, una celebración espiritual dirigida por los chamanes Emberá.",
+            "act_6": "16:00: Traslado al hotel, y posterior salida para el vuelo de regreso a Medellin."
+          },
+          "image": "https://edzuvpcg9xd.exactdn.com/wp-content/uploads/2020/11/place-central-america-panama-embera-drua-village-03.jpg?strip=all&lossy=1&ssl=1"
+        }
+      }
+    },
+
+    {
+      "community_name": "Experiencia Arhuaca en la Sierra Nevada de Santa Marta",
+      "defining_phrase": "Sumérgete en la sabiduría ancestral y la majestuosidad natural de los Arhuacos en la Sierra Nevada de Santa Marta.",
+      "importance_description": "Descubre la riqueza cultural y la conexión espiritual en un entorno de biodiversidad única.",
+      "why_know_community": "Explora la cultura vibrante y resiliente de los Arhuacos y conecta con la esencia de las montañas y valles de la Sierra Nevada.",
+      "representative_phrase": "Nuestra fuerza proviene de la Madre Tierra y de la sabiduría de nuestros ancestros.",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl-_NC4QEaA1MeOKGsZSWRKdmGnw4DdyFZlA&usqp=CAU",
+        "https://codigoprensa.com/wp-content/uploads/2022/02/Sierraventur-Travel-turismo-comunitario-indigena-1024x576.jpg",
+        "https://en77jjzp3wa.exactdn.com/wp-content/uploads/2018/12/seydukwa-visitar-indigena-arhuaco-sierra-nevada-viaje-colombia-17.jpg?strip=all&lossy=1&quality=60&webp=60&sharp=1&ssl=1",
+        "https://lanotapositiva.com/wp-content/uploads/2020/12/La-empresa-de-agua-en-la-Sierra-Nevada-que-buscan-crear-los-arhuacos.jpg"
+      ],
+      "plan_description": {
+        "travel_time": "3 días, 2 noches",
+        "suitable_for_group": "Se realiza en grupo",
+        "includes_native_guide": "Incluye guía nativo profesional",
+        "unique_experiences": "Ceremonias ancestrales y exploración de la Sierra Nevada"
+      },
+      "activity_itinerary": {
+        "day_1": {
+          "nameDay": "Día 1. Llegada a Valledupar",
+          "description": {
+            "act_1": "07:00: Encuentro en el Aeropuerto Internacional José María Córdova (Medellín) para tomar vuelo hacia Valledupar.",
+            "act_2": "08:30: Llegada al Aeropuerto Alfonso López Pumarejo (Valledupar) y traslado al hotel para check-in.",
+            "act_3": "12:00: Almuerzo en el hotel.",
+            "act_4": "14:00: Traslado y bienvenida en la comunidad Arhuaca.",
+            "act_5": "17:00: Ceremonia de Limpieza Espiritual: Un ritual de purificación y conexión con la naturaleza.",
+            "act_6": "20:00: Traslado al hotel."
+          },
+          "image": "https://www.elheraldo.co/sites/default/files/styles/width_1180/public/2020/12/30/comunidad-arhuaca.jpg"
+        },
+        "day_2": {
+          "nameDay": "Día 2. Exploración cultural y natural",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel.",
+            "act_2": "08:00: Traslado a la comunidad Arhuaca.",
+            "act_3": "09:00: Participación en la Ceremonia del Poporo: una práctica espiritual que honra a los ancestros y la naturaleza.",
+            "act_4": "12:00: Almuerzo tradicional con la comunidad.",
+            "act_5": "14:00: Caminata guiada por los líderes Arhuacos a través de los paisajes montañosos, con explicación sobre la flora y fauna local.",
+            "act_6": "19:00: Cena y noche de historias y leyendas alrededor de la fogata.Retorno al hotel"
+          },
+          "image": "data:image/jpeg;base64,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"
+        },
+        "day_3": {
+          "nameDay": "Día 3. Espititud y mente",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel.",
+            "act_2": "08:00: Traslado a la comunidad Arhuaca.",
+            "act_3": "09:00: Actividad de natación en el río Badillo.",
+            "act_4": "12:00: Almuerzo con la comunidad.",
+            "act_5": "13:00: Participación en la Ceremonia del Mamo, una celebración espiritual dirigida por los líderes espirituales Arhuacos.",
+            "act_6": "16:00: Traslado al aeropuerto de Valledupar para tomar vuelo a Medellin."
+          },
+          "image": "https://siturcesar.com/multimedia/atracciones/atraccion-17/imagen-0.jpg"
+        }
+      }
+    },
+
+    {
+      "community_name": "Experiencia Wayuu en la Guajira",
+      "defining_phrase": "Vive la autenticidad y la herencia cultural de los Wayuu en el desierto de la Guajira.",
+      "importance_description": "Sumérgete en la vida y tradiciones de la comunidad Wayuu, conectando con sus costumbres ancestrales y su entorno único.",
+      "why_know_community": "Descubre la resiliencia y riqueza cultural de los Wayuu, aprendiendo de sus tradiciones y disfrutando de la belleza natural del desierto de la Guajira.",
+      "representative_phrase": "Nuestra fortaleza reside en nuestras raíces y la inmensidad del desierto.",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM0-zW8adVaeZ4iO4vrYspIMRGFHQqFxPQsQ&usqp=CAU",
+        "https://lajorara.com/wp-content/uploads/2020/04/Tour-Rancheria-Wayuu-Unique-Colombia-Camarones-Guajira.jpg",
+        "https://soleratravels.com/wp-content/uploads/2021/03/Enramada-Wayuu-Rancheria-Iwouyaa-scaled.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWb5bv-Q_ELQB9iKrUkJK-FHk2rTdeoXF4Q&usqp=CAU"
+      ],
+      "plan_description": {
+        "travel_time": "3 días, 2 noches",
+        "suitable_for_group": "Se realiza en grupo",
+        "includes_native_guide": "Incluye guía nativo profesional",
+        "unique_experiences": "Ceremonias tradicionales y exploración del desierto"
+      },
+      "activity_itinerary": {
+        "day_1": {
+          "nameDay": "Día 1. Llegada a Riohacha",
+          "description": {
+            "act_1": "07:00: Encuentro en el Aeropuerto Internacional José María Córdova (Medellín) para tomar vuelo hacia Riohacha.",
+            "act_2": "09:00: Llegada al Aeropuerto Almirante Padilla (Riohacha) y traslado al hotel para check-in.",
+            "act_3": "12:00: Almuerzo en el hotel.",
+            "act_4": "14:00: Traslado y bienvenida en la comunidad Wayuu.",
+            "act_5": "16:00: Presentación cultural y charla sobre la historia y tradiciones Wayuu.",
+            "act_6": "18:00: Cena tradicional Wayuu y observación de estrellas en el desierto. Posterior translado al hotel"
+          },
+          "image": "https://soleratravels.com/wp-content/uploads/2021/01/20150114_164400-scaled.jpg"
+        },
+        "day_2": {
+          "nameDay": "Día 2. Exploración cultural y natural",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel.",
+            "act_2": "08:00: Traslado a la comunidad Wayuu.",
+            "act_3": "09:00: Participación en la Ceremonia del Yonna: una danza tradicional que simboliza la armonía y el equilibrio.",
+            "act_4": "12:00: Almuerzo tradicional Wayuu.",
+            "act_5": "14:00: Visita al Cabo de la Vela y sus playas, con actividades de natación y relajación.",
+            "act_8": "18:00: Retorno al hotel y cena."
+          },
+          "image": "https://colombiapais.com/pagina-sol-y-playa/playas-mar-caribe/imagenes/guajira-pilon-de-azucar-ll.jpg"
+        },
+        "day_3": {
+          "nameDay": "Día 3. Mar y arena y paz",
+          "description": {
+            "act_1": "07:00: Desayuno en el hotel.",
+            "act_2": "08:00: Traslado a la comunidad Wayuu.",
+            "act_3": "09:00: Pesca artesanal en la playa",
+            "act_4": "12:00: Almuerzo con la comunidad.",
+            "act_5": "13:00: Participación en la Ceremonia del Jepirra, una celebración espiritual que honra a los ancestros.",
+            "act_6": "16:00: Traslado al hotel y posterior salida al aeropuerto de Riohacha."
+          },
+          "image": "https://almasaventureras.com/wp-content/uploads/2022/07/11-1.jpg"
+        }
+      }
+    }
+  ]
+}
