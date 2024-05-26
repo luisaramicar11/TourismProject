@@ -273,5 +273,144 @@ body{
     height: 100vh;
 }
 
+/* Estilos usados en comunidades y nosotros */
 
-
+#bg {
+    background-color: #490019;
+  }
+  
+  .mandos-responsive {
+    top: 23px;
+    width: 73vw;
+    left: 7vw;
+  }
+  
+  .text-responsive {
+    font-size: calc(0.1rem + 1.3vw);
+  }
+  
+  .title-responsive {
+    font-size: calc(0.8rem + 1.3vw);
+  }
+  
+  .width-padre-responsive{
+    width: 100%;
+  }
+  .width-hijo1-responsive{
+    width: 90%;
+    margin: 4.5vw;
+  }
+  .width-hijo2-responsive{
+    width: 90%;
+    margin: 4.5vw;
+  }
+  
+  @media (min-width : 320px) {
+  
+    .title-responsive {
+     font-size: 3.6vw;
+   }
+   .text-responsive {
+     font-size: 2.6vw;
+   }
+   .mandos-responsive {
+    top: 23px;
+    width: 70vw;
+    left: 1vw;
+  }
+  
+  }
+  @media (min-width : 750px) {
+  
+    .title-responsive {
+     font-size: 3.6vw;
+   }
+   .text-responsive {
+     font-size: 2.6vw;
+   }
+   .mandos-responsive {
+    top: 23px;
+    width: 70vw;
+    left: 7.5vw;
+  }
+  
+  }
+  @media (min-width : 1000px) {
+    .width-padre-responsive{
+      width: 90%;
+    }
+    .width-hijo1-responsive{
+      width: 50%;
+      margin: 0vw;
+    }
+    .width-hijo2-responsive{
+      width: 40%;
+      margin: 0vw;
+    }
+   
+    .title-responsive {
+    font-size: 2.3vw;
+  }
+  .text-responsive {
+    font-size: 1.3vw;
+    margin-top:0vw;
+  }
+  .display-responsive {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:05vw;
+    }
+   
+   .mandos-responsive {
+    top: 23px;
+    width: 45vw;
+    left: 5.3vw;
+  }
+  form{
+    background-color: rgba(255, 255, 255, 0.500);
+    width: 45%;
+  
+  }
+  
+  }
+  @media (min-width : 1200px) {
+  
+   
+    .title-responsive {
+    font-size: 2.3vw;
+  }
+  .text-responsive {
+    font-size: 1.3vw;
+    margin-top:0vw;
+  }
+  .display-responsive {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:05vw;
+    }
+   
+   .mandos-responsive {
+    top: 23px;
+    width: 45vw;
+    left: 9.3vw;
+  }
+  .text2-responsive {
+    font-size: 0.6w;
+    margin-top:0vw;
+  }
+  }
+  
+  form{
+    background-color: rgba(255, 255, 255, 0.500);
+  }
+  .btn-submit{
+    background-color: #490019;
+    color: white;
+  }
+  .btn-reset{
+    background-color:white;
+    color:#490019;
+  }
+  
