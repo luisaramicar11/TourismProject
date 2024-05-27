@@ -1,104 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
+<div class="bg-nosotros">
+    <!-- Seccion de video -->
+    <section class="d-flex flex-column justify-content-center align-items-center gap-4" id="section-video">
+        <h2 class="text-white fs-1" id="video-title">¡Bienvenido a Colombia!</h2>
+        <p class="text-white fs-3" id="video-paragraph">Vive una experiencia unica de principio a fin en nuestros
+            paraisos</p>
+        <button type="button" class="btn btn-primary p-3 px-5 mt-5" id="button-want-travel"> QUIERO VIAJAR </button>
+        <video muted autoplay loop>
+            <source src="../../public/video/waterfall_nature.mp4" type="video/mp4">
+        </video>
+        <div class="filter"></div>
+        <img src="../../public/img/Logo.png" alt="" id="logo-image" class="w-50">
+        <article id="icons-article" class="d-flex gap-2 justify-content-end pe-3 align-items-center fs-4 w-100">
+            <a href="https://www.instagram.com/juntana.travell/" class="bi bi-instagram text-light" target="_blank"></a>
+            <a href="https://web.facebook.com/profile.php?id=61559691340230" class="bi bi-facebook text-light" target="_blank"></a>
+            <a href="https://www.youtube.com/channel/UCGMo9fH9OJ1O1d3Lkb7ybPA" class="bi bi-youtube text-light" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/delta-theme-39489b30a/" class="bi bi-linkedin text-light" target="_blank"></a>
+        </article>
+    </section>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../scss/styles.scss">
-    <title>Home</title>
-</head>
+    <!-- Seccion por que viajar con nosotros -->
+    <section class="d-flex flex-column text-center text-white pt-4" id="section-travel-with-us">
+        <p class="fs-3">¿Por que viajar con nosotros?</p>
+        <article class="d-flex flex-wrap my-5">
+            <div class="container-travel-with-us d-flex flex-column pb-4 gap-3">
+                <i class="icon-travel-with-us fa-regular fa-circle-check"></i>
+                <h3 class="fs-5">Autenticidad Cultural</h3>
+                <p class="text-travel-with-us">Experimenta la verdadera esencia de las comunidades indígenas,
+                    aprendiendo directamente de sus tradiciones y estilo de vida.</p>
+            </div>
+            <div class="container-travel-with-us d-flex flex-column pb-4 gap-3">
+                <i class="icon-travel-with-us fa-solid fa-shield-halved"></i>
+                <h3 class="fs-5">Seguridad</h3>
+                <p class="text-travel-with-us">Viaja con tranquilidad sabiendo que nuestros guías nativos garantizan
+                    un conocimiento profundo del entorno, asegurando una experiencia segura y enriquecedora.</p>
+            </div>
+            <div class="container-travel-with-us d-flex flex-column pb-4 gap-3">
+                <i class="icon-travel-with-us fa-solid fa-person-hiking"></i>
+                <h3 class="fs-5">Aventuras Únicas</h3>
+                <p class="text-travel-with-us">Disfruta de itinerarios personalizados y actividades exclusivas,
+                    desde ceremonias tradicionales hasta exploraciones naturales guiadas por expertos nativos.</p>
+            </div>
+            <div class="container-travel-with-us">
+                <i class="icon-travel-with-us fa-solid fa-user-ninja d-flex flex-column pb-4 gap-3"></i>
+                <h3 class="fs-5">Guías Nativos</h3>
+                <p class="text-travel-with-us">Benefíciate del conocimiento y experiencia de guías locales, quienes
+                    te mostrarán los secretos y maravillas de sus tierras ancestrales.</p>
+            </div>
+        </article>
+    </section>
 
-<body>
-
-    <!-- Header -->
-    <header></header>
-    
-    <!-- Main -->
-    <main>
-
-        <!-- Seccion de video -->
-        <section class="d-flex flex-column justify-content-center align-items-center gap-4" id="section-video">
-            <h2 class="text-white fs-1" id="video-title">¡Bienvenido a Colombia!</h2>
-            <p class="text-white fs-3" id="video-paragraph">Vive una experiencia unica de principio a fin en nuestros
-                paraisos</p>
-            <button type="button" class="btn btn-primary p-3 px-5 mt-5" id="button-want-travel"> QUIERO VIAJAR </button>
-            <video muted autoplay loop>
-                <source src="../../public/video/waterfall_nature.mp4" type="video/mp4">
-            </video>
-            <div class="filter"></div>
-            <img src="../../public/img/Logo.png" alt="" id="logo-image" class="w-50">
-            <article id="icons-article" class="d-flex gap-2 justify-content-end pe-3 align-items-center fs-4 w-100">
-                <a href="https://www.instagram.com/juntana.travell/" class="bi bi-instagram text-light"></a>
-                <a href="https://web.facebook.com/profile.php?id=61559691340230" class="bi bi-facebook text-light"></a>
-                <a href="https://www.youtube.com/channel/UCGMo9fH9OJ1O1d3Lkb7ybPA" class="bi bi-youtube text-light"></a>
-                <a href="https://www.linkedin.com/in/delta-theme-39489b30a/" class="bi bi-linkedin text-light"></a>
-            </article>
-        </section>
-
-        <!-- Seccion por que viajar con nosotros -->
-        <section class="d-flex flex-column text-center text-white pt-4" id="section-travel-with-us">
-            <p class="fs-3">¿Por que viajar con nosotros?</p>
-            <article class="d-flex flex-wrap my-5">
-                <div class="container-travel-with-us d-flex flex-column pb-4 gap-3">
-                    <i class="icon-travel-with-us fa-regular fa-circle-check"></i>
-                    <h3 class="fs-5">Autenticidad Cultural</h3>
-                    <p class="text-travel-with-us">Experimenta la verdadera esencia de las comunidades indígenas,
-                        aprendiendo directamente de sus tradiciones y estilo de vida.</p>
-                </div>
-                <div class="container-travel-with-us d-flex flex-column pb-4 gap-3">
-                    <i class="icon-travel-with-us fa-solid fa-shield-halved"></i>
-                    <h3 class="fs-5">Seguridad</h3>
-                    <p class="text-travel-with-us">Viaja con tranquilidad sabiendo que nuestros guías nativos garantizan
-                        un conocimiento profundo del entorno, asegurando una experiencia segura y enriquecedora.</p>
-                </div>
-                <div class="container-travel-with-us d-flex flex-column pb-4 gap-3">
-                    <i class="icon-travel-with-us fa-solid fa-person-hiking"></i>
-                    <h3 class="fs-5">Aventuras Únicas</h3>
-                    <p class="text-travel-with-us">Disfruta de itinerarios personalizados y actividades exclusivas,
-                        desde ceremonias tradicionales hasta exploraciones naturales guiadas por expertos nativos.</p>
-                </div>
-                <div class="container-travel-with-us">
-                    <i class="icon-travel-with-us fa-solid fa-user-ninja d-flex flex-column pb-4 gap-3"></i>
-                    <h3 class="fs-5">Guías Nativos</h3>
-                    <p class="text-travel-with-us">Benefíciate del conocimiento y experiencia de guías locales, quienes
-                        te mostrarán los secretos y maravillas de sus tierras ancestrales.</p>
-                </div>
-            </article>
-        </section>
-
-        <!-- Seccion de comentarios -->
-        <section class="pb-5">
-            <div id="carouselExampleIndicators" class="carousel slide d-flex flex-column gap-5">
-                <div class="d-flex justify-content-center gap-4 align-items-center">
-                    <button class="btn btn-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </button>
-                    <h2 class="text-white text-center d-flex py-1 fs-5">Algunos Viajeros Comentan
-                        Sobre JUNTANA</h2>
-                    <button class="btn btn-next" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="d-flex flex-wrap justify-content-center gap-3" id="slice-1">
-                        </div>
+    <!-- Seccion de comentarios -->
+    <section class="pb-5">
+        <div id="carouselExampleIndicators" class="carousel slide d-flex flex-column gap-5">
+            <div class="d-flex justify-content-center gap-4 align-items-center">
+                <button class="btn btn-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <h2 class="text-white text-center d-flex py-1 fs-5">Algunos Viajeros Comentan
+                    Sobre JUNTANA</h2>
+                <button class="btn btn-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex flex-wrap justify-content-center gap-3" id="slice-1">
                     </div>
-                    <div class="carousel-item">
-                        <div class="d-flex flex-wrap justify-content-center gap-3" id="slice-2">
-                        </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-wrap justify-content-center gap-3" id="slice-2">
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+</main>
 
-    <!-- Footer -->
-    <footer></footer>
-    <script src="https://kit.fontawesome.com/0fb04f67d0.js" crossorigin="anonymous"></script>
-    <script type="module" src="../js/main.js"></script>
-</body>
-
-</html>
+</div>
+        

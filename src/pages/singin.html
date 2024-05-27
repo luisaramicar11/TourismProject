@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./public/icon/Logo Icono.ico" type="image/x-icon" />
-    <title>Document</title>
-</head>
-
-<body>
-    <!-- Header content -->
-    <header></header>
-
-    <!-- Main container section -->
-    <main>
-        <!-- Fluid container section -->
-        <section class="container-fluid">
+ <!-- Fluid container section -->
+        <section class="">
 
             <!-- Container for the login form and banner -->
             <div class="row container-register">
@@ -29,22 +13,22 @@
                 <article class="col-md-6 right-side">
 
                     <!-- Centered content within the form container -->
-                    <div class="w-75 mx-auto">
+                    <div class="w-100 ">
                         <h2 class="text-center text-o">Inicia sesión</h2>
 
                         <!-- Login form -->
-                        <form class="register-form">
+                        <form class="w-100" id="register-form">
 
                             <!-- Form group for the email input -->
                             <div class="form-group">
                                 <label for="correo text-o">Correo:</label>
-                                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo">
+                                <input type="email" class="form-control email" placeholder="Ingresa tu correo">
                             </div>
 
                             <!-- Form group for the password input -->
                             <div class="form-group">
                                 <label for="contrasena text-o">Contraseña:</label>
-                                <input type="password" class="form-control" id="password"
+                                <input type="password" class="form-control password" 
                                     placeholder="Ingresa tu contraseña">
                             </div>
                             <!-- Checkbox for agreeing to terms with a label -->
@@ -56,23 +40,15 @@
                             </div>
 
                             <!-- Submit button for the form -->
-                            <button type="submit" class="btn d-flex center button-sing1 btn-block">Iniciar
-                                sesión</button>
+                            <a type="submit" class="btn d-flex center button-sing1 btn-block" href="/dashboard">Iniciar
+                                sesión</a>
 
                             <!-- Link to the registration page if the user does not have an account -->
                             <span class="register-link">Aun no tienes una cuenta,<a
-                                    href="./singup.html">registrate</a></span>
+                                    href="/signup">registrate</a></span>
 
                         </form>
                     </div>
                 </article>
             </div>
         </section>
-    </main>
-    <!-- Footer content -->
-    <footer></footer>
-    <script type="module" src="../js/login.js"></script>
-    <script type="module" src="../js/main.js"></script>
-</body>
-
-</html>

@@ -24,11 +24,14 @@ export const routes = () => {
     const router = async () => {
         const routes = [
             { path: "/", view: () => loadHtml('./src/pages/home.html')  },
-            { path: "/acerca", view: () => loadHtml('./src/pages/about.html') },
-            { path: "/comunidades", view: () => loadHtml('./src/pages/community.html') },
+            { path: "/acerca", view: () => loadHtml('./src/pages/Nosotros.html') },
+            { path: "/comunidades", view: () => loadHtml('./src/pages/Comunidades.html') },
             { path: "/turismo", view: () => loadHtml('./src/pages/plansTourism.html') },
+            { path: "/iniciosesion", view: () => loadHtml('./src/pages/singin.html') },
+            { path: "/signup", view: () => loadHtml('./src/pages/signup.html') },
             { path: "/404", view: () => loadHtml('./src/pages/error404.html')},
             { path: "/plans", view: () => loadHtml('./src/pages/planCommunity.html')},
+            { path: "/dashboard", view: () => loadHtml('./src/pages/dashboard.html')},
             { path: "/pagoexitoso", view: () => loadHtml('./src/pages/stripe-success.html')},
             { path: "/pagonegado", view: () => loadHtml('./src/pages/stripe-cancel.html')}
         ];

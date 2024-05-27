@@ -77,7 +77,7 @@ export async function stripeCheckout(classContainerCards, eachContainer) {
       containerCards.innerHTML = `<p>Error ${err.status}: ${message}</p>`;
     });
 
-  document.addEventListener("click", (e) => {
+  document.querySelector(".btn-buy-plan").addEventListener("click", (e) => {
     console.log(e.target);
     if (e.target.matches(".btn-buy-plan")) {
       let price = document

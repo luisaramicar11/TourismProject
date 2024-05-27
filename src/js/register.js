@@ -1,18 +1,24 @@
-//Import the function that show a better alerts
-import { showAlertSuccess, showAlertError, showAlertWarning } from "./alerts.js"
 
-//calling the form by it ID
-const form = document.getElementById("register-form")
-
-
-// Selecting input fields from the form
-const userName = document.getElementById("user-name")
-const lastName = document.getElementById("last-name")
-const email = document.querySelector(".email")
-const password = document.querySelector(".password")
-const confirmPassword = document.getElementById("confirm-password")
-
-
+function checkPassword(passwordNew, confirmPasswordNew) {
+    console.log("entre")
+    let password=document.querySelector(passwordNew)
+    let confirmPassword=document.querySelector(confirmPasswordNew)
+    console.log(password)
+    console.log(confirmPassword)
+    if (password.value === confirmPassword.value) {
+        return true // Passwords match
+    } else {
+        
+        return false // Passwords don't match
+    }
+}
+export function register(emailNew, passwordNew, userNameNew, lastNameNew, confirmPasswordNew, formNew){
+    let email = document.querySelector(emailNew);
+    let password = document.querySelector(passwordNew)
+    let userName = document.querySelector(userNameNew)
+    let lastName = document.querySelector(lastNameNew)
+    let confirmPassword = document.querySelector(confirmPasswordNew)
+    let form = document.querySelector(formNew)
 // Event listener for form submission
 form.addEventListener("submit", async (event) => {
     event.preventDefault()
@@ -55,16 +61,7 @@ async function checkEmail(email) {
     }
 }
 
-// Function to check if the entered password matches the confirmation password
-function checkPassword(password, confirmPassword) {
-    
-    if (password.value === confirmPassword.value) {
-        return true // Passwords match
-    } else {
-        
-        return false // Passwords don't match
-    }
-}
+
 
 // Function to register the user
 async function registerUser(userName, lastName, email, password) {
@@ -86,7 +83,26 @@ async function registerUser(userName, lastName, email, password) {
         body: JSON.stringify(newUser)
     })
 }
+function showAlertSuccess(message) {
+    Toast.fire({
+        icon: "success",// Display a success icon
+        title: message // Display the provided message
+    });
+}
+function showAlertError(message) {
+    Toast.fire({
+        icon: "error",// Display a success icon
+        title: message // Display the provided message
+    });
+}
+function showAlertWarning(message) {
+    Toast.fire({
+        icon: "warning",// Display a success icon
+        title: message // Display the provided message
+    });
+}
 
+}
 
 
 

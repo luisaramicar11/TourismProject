@@ -1,27 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../../public/icon/Logo Icono.ico" type="image/x-icon" />
-    <title>Sing in</title>
-</head>
-
-<body>
-    <!-- Header content -->
-    <header></header>
-    
-    <!-- Main container section -->
-    <main>
-        <section class="container-fluid">
-            <article class="row">
+        <section class="seccion-signup">
+            <article class="row ">
                 <article
-                    class=" banner-container col-md-6 left-side d-flex flex-column justify-content-center align-items-center">
+                    class="banner-container col-md-6 left-side d-flex flex-column justify-content-center align-items-center">
                 </article>
                 <article class="form-container col-md-6 right-side">
-                    <div class="w-75 mx-auto">
-                        <h2 class="text-center text-o">Crea tu cuenta </h2>
+                    <div class="w-100">
+                        <h2 class="text-center text-o register-container">Crea tu cuenta </h2>
                         <form id="register-form" class="register-form">
                             <div class="form-group text-o">
                                 <label for="name">Nombre:</label>
@@ -44,7 +29,7 @@
                             </div>
                             <div class="form-group text-o">
                                 <label for="password">Contraseña:</label>
-                                <input type="password" class="form-control password" name="password"
+                                <input type="password" class="form-control password-sign-up" name="password"
                                     placeholder="Digite una contraseña"
                                     title="se requiere por lo menos una letra mayuscula, una minuscula, un caracter especial, un digito y sin espacios  "
                                     pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,15}$"
@@ -59,24 +44,16 @@
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="remember" required>
-                                <label class="form-check-label text-o" for="recordar">Tus datos personales serán usados
+                                <!-- <label class="form-check-label text-o" for="recordar">Tus datos personales serán usados
                                     para
                                     mejorar la experiencia en nuestro sitio web, para acceder a tu cuenta y para otros
                                     propósitos descritos en nuestra política de privacidad.</label>
-                            </div>
+                            </div> -->
 
-                            <button type="submit" class="btn button-sing1 btn-block mt-2">Crear cuenta</button>
+                            <a type="submit" class="btn button-sing1 btn-block mt-2" href="/iniciosesion">Crear cuenta</a>
                         </form>
                     </div>
                 </article>
             </article>
         </section>
-    </main>
-    <!-- Footer content -->
-    <footer></footer>
-    <script type="module" src="../js/register.js"></script>
-    <script type="module" src="../js/validations.js"></script>
-    <script type="module" src="../js/main.js"></script>
-</body>
-
-</html>
+    

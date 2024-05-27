@@ -1,5 +1,5 @@
-const slice1 = document.querySelector("#slice-1")
-const slice2 = document.querySelector("#slice-2")
+//const slice1 = document.querySelector("#slice1");
+//const slice2 = document.querySelector("#slice2");
 
 const comments = [
     "¡Tuvimos un tiempo increíble en nuestro tour! La atención al detalle de la empresa y su compromiso con el cliente realmente se destacaron. ¡Muy recomendado!",
@@ -9,15 +9,21 @@ const comments = [
     "¡La mejor experiencia de viaje que hemos tenido! Los guías eran apasionados y entretenidos, y los destinos eran impresionantes. ¡Un gran agradecimiento a todo el equipo!",
     "Our tour was a dream come true. The accommodations were excellent, and the itinerary was well-planned. We felt well taken care of throughout the entire trip."
 ]
-
 async function getUserInformation (){
+    console.log("entre")
     let userInformation
-    const answer = await fetch("https://api.escuelajs.co/api/v1/users",)
-    return userInformation = await answer.json()
+    const answer = await fetch("https://api.escuelajs.co/api/v1/users")
+    userInformation = await answer.json()
+    return userInformation
 }
 
-export async function putComments() {
+export async function putComments(sliceUno, sliceDos) {
+    
+    let slice1 = document.querySelector(sliceUno);
+    let slice2 = document.querySelector(sliceDos);
     let userInformation = await getUserInformation()
+    console.log(userInformation)
+    console.log(userInformation)
     for (let i = 0; i < 3; i++) {
         slice1.innerHTML += `
         

@@ -1,21 +1,21 @@
 
 //Maneja todos los archivos js usados en el proyecto
-
 import '../scss/styles.scss'
 import * as bootstrap from 'bootstrap'
 import {routes} from "./routes.js"
 import { infoCommunity } from './planCommunity.js'
 import {stripeCheckout} from './stripe-checkout.js'
 import { putComments } from './home.js'
+import Swal from 'sweetalert2'
 
+// Selecting input fields from the form
 
 routes();
 
 setTimeout(() => {
     stripeCheckout(".container-cards-plan");
-    }, 100);
-
-putComments()
+    putComments("#slice-1", "#slice-2");
+    }, 1000);
 
 if (window.location.pathname === '/plans') {
     setTimeout(() => {
@@ -25,7 +25,7 @@ if (window.location.pathname === '/plans') {
  
 
 //funciones de comunidades y nosotros
-$('.slider-for').slick({
+/* $('.slider-for').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -40,7 +40,7 @@ $('.slider-for').slick({
     centerMode: true,
     focusOnSelect: true
   });
-
+ */
   (function() {
     'use strict';
     window.addEventListener('load', function() {
@@ -56,4 +56,8 @@ $('.slider-for').slick({
         });
     }, false);
 })();
+
+
+
+
 

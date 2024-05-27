@@ -1,8 +1,9 @@
 // Function for form validations
-function formValidations() {
+
+export function formValidations(varInputs) {
     const d = document
     // Function for form validations
-    const inputs = document.querySelectorAll("#register-form [required]")
+    const inputs = document.querySelectorAll(varInputs)
     console.log(inputs)
 
     // Create error message spans for each input
@@ -39,5 +40,5 @@ function formValidations() {
     })
 
 }
-formValidations()
+
 
