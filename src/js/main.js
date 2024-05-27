@@ -1,4 +1,3 @@
-
 //Maneja todos los archivos js usados en el proyecto
 import '../scss/styles.scss'
 import * as bootstrap from 'bootstrap'
@@ -17,6 +16,11 @@ setTimeout(() => {
     stripeCheckout(".container-cards-plan");
     putComments("#slice-1", "#slice-2");
     }, 1000);
+    if (window.location.pathname === '/plans') {
+      setTimeout(() => {
+      infoCommunity(".plan-community")
+      }, 100);
+  }
 
     document.addEventListener('DOMContentLoaded', () => {
         const languageSelector = document.getElementById('language-selector');
@@ -50,11 +54,7 @@ setTimeout(() => {
 
 //translate('[data-i18n]')    
 
-if (window.location.pathname === '/plans') {
-    setTimeout(() => {
-    infoCommunity(".plan-community")
-    }, 100);
-}
+
  
 
 //funciones de comunidades y nosotros
