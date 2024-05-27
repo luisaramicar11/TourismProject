@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -14,7 +15,7 @@
   <meta name="designer" content="Team Delta: Juntana" />
 
   <meta name="copyright" content="© 2024 Juntana. Todos los derechos reservados" />
-  
+
   <meta name="robots" content="index,follow" />
   <meta name="googlebot" content="index,follow" />
   <meta name="revisit-after" content="15days" />
@@ -43,25 +44,30 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/" data-link>Inicio</a>
+              <a class="nav-link" aria-current="page" href="/" data-i18n="home">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/comunidades" data-link>Comunidades</a>
+              <a class="nav-link" href="/comunidades" data-i18n="communities">Comunidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/turismo" data-link>Turismo</a>
+              <a class="nav-link" href="/turismo" data-i18n="tourism">Turismo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/acerca" data-link>Nosotros</a>
+              <a class="nav-link" href="/acerca" data-i18n="about">Nosotros</a>
             </li>
           </ul>
           <div class="pe-5">
-            <a type="button" class="btn-login btn btn-outline-primary" href="/iniciosesion" data-link>Login</a>
+            <a type="button" class="btn-login btn btn-outline-primary" href="/iniciosesion" data-i18n="login">Login</a>
+            <select id="language-selector">
+              <option value="es">ES</option>
+              <option value="en">EN</option>
+            </select>
           </div>
         </div>
       </div>
     </nav>
   </header>
+
 
   <main class="content" id="app"></main>
   <section class="container container-burble">
@@ -71,65 +77,66 @@
 
     <!-- Container for social media links  -->
     <div class="redes">
-        <a href="https://www.facebook.com/profile.php?id=61559691340230&locale=es_LA" target="_blank" class="bi bi-facebook"></a>
-        <a href="https://www.youtube.com/channel/UCGMo9fH9OJ1O1d3Lkb7ybPA" target="_blank" class="bi bi-youtube"></a>
-        <a href="https://www.linkedin.com/in/juntana-travell-39489b30a/" target="_blank" class="bi bi-linkedin"></a>
-        <a href="https://wa.me/573145971425/?text=linea de soporte" target="_blank" class="bi bi-whatsapp"></a>
+      <a href="https://www.facebook.com/profile.php?id=61559691340230&locale=es_LA" target="_blank"
+        class="bi bi-facebook"></a>
+      <a href="https://www.youtube.com/channel/UCGMo9fH9OJ1O1d3Lkb7ybPA" target="_blank" class="bi bi-youtube"></a>
+      <a href="https://www.linkedin.com/in/juntana-travell-39489b30a/" target="_blank" class="bi bi-linkedin"></a>
+      <a href="https://wa.me/573145971425/?text=linea de soporte" target="_blank" class="bi bi-whatsapp"></a>
     </div>
 
     <!-- Button that controls the visibility of social links -->
     <div class="btn-deploy d-flex justify-content-end">
-        <!-- Checkbox label with the "wechat" icon -->
-        <label for="btn-deploy" class="bi bi-wechat"></label>
+      <!-- Checkbox label with the "wechat" icon -->
+      <label for="btn-deploy" class="bi bi-wechat"></label>
     </div>
-</section>
+  </section>
   <!-- Footer section -->
   <footer class="bg-nosotros">
 
     <!-- Section containing the footer content with a top border and custom footer banner -->
     <section class="py-5 border-top footer-banner bg-nosotros">
 
-        <!-- Column for the logo and copyright text -->
-        <div class="col mb-3">
+      <!-- Column for the logo and copyright text -->
+      <div class="col mb-3">
 
-            <!-- Juntana logo image -->
-            <img src="/public/img/Logo-completo.webp" class="Juntana-logo" alt="Juntana-logo">
-            <p class="copyrigth">&copy;2024 JUNTANA Todos los derechos reservados Medellín-Colombia</p>
-        </div>
+        <!-- Juntana logo image -->
+        <img src="/public/img/Logo-completo.webp" class="Juntana-logo" alt="Juntana-logo">
+        <p class="copyrigth" data-i18n="copyright">&copy;2024 JUNTANA Todos los derechos reservados Medellín-Colombia
+        </p>
+      </div>
 
-        <!-- div column for "Sitios Estatales" with a list of state sites -->
-        <div class="col mb-3 safe-contacs">
-            <h5>Sitios Estatales</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2">Policia Nacional</li>
-                <li class="nav-item mb-2">Ministerio de justicia</li>
-                <li class="nav-item mb-2">Ministerio de turismo</li>
-                <li class="nav-item mb-2">Gaula</li>
-            </ul>
-        </div>
+      <!-- div column for "Sitios Estatales" with a list of state sites -->
+      <div class="col mb-3 safe-contacs">
+        <h5>Sitios Estatales</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">Policia Nacional</li>
+          <li class="nav-item mb-2">Ministerio de justicia</li>
+          <li class="nav-item mb-2">Ministerio de turismo</li>
+          <li class="nav-item mb-2">Gaula</li>
+        </ul>
+      </div>
 
-        <!-- div Column for "sedes" with a list of locations -->
-        <div class="col mb-3 safe-contacs">
-            <h5>sedes</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2">Miami</li>
-                <li class="nav-item mb-2">Medellín</li>
-                <li class="nav-item mb-2">Paris</li>
-                <li class="nav-item mb-2">Amsterdam</li>
-            </ul>
-        </div>
-       
+      <!-- div Column for "sedes" with a list of locations -->
+      <div class="col mb-3 safe-contacs">
+        <h5>sedes</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">Miami</li>
+          <li class="nav-item mb-2">Medellín</li>
+          <li class="nav-item mb-2">Paris</li>
+          <li class="nav-item mb-2">Amsterdam</li>
+        </ul>
+      </div>
+
     </section>
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/0fb04f67d0.js" crossorigin="anonymous"></script>
-<script src="https://js.stripe.com/v3/"></script>
-<script type="module" src="./src/js/main.js"></script>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0fb04f67d0.js" crossorigin="anonymous"></script>
+  <script src="https://js.stripe.com/v3/"></script>
+  <script type="module" src="./src/js/main.js"></script>
 </body>
 
 </html>
-

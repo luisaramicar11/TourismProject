@@ -1,10 +1,11 @@
 <div class="bg-nosotros">
     <!-- Seccion de video -->
     <section class="d-flex flex-column justify-content-center align-items-center gap-4" id="section-video">
-        <h2 class="text-white fs-1" id="video-title">¡Bienvenido a Colombia!</h2>
-        <p class="text-white fs-3" id="video-paragraph">Vive una experiencia unica de principio a fin en nuestros
-            paraisos</p>
-        <a type="button" class="btn btn-primary p-3 px-5 mt-5" id="button-want-travel" href="turismo"> QUIERO VIAJAR </a>
+        <h2 class="text-white fs-1" id="video-title" data-i18n="video-title">¡Bienvenido a Colombia!</h2>
+        <p class="text-white fs-3" id="video-paragraph" data-i18n="video-paragraph">Vive una experiencia unica de
+            principio a fin en nuestros paraisos</p>
+        <a type="button" class="btn btn-primary p-3 px-5 mt-5" id="button-want-travel" href="turismo"
+            data-i18n="button-want-travel"> QUIERO VIAJAR </a>
         <video muted autoplay loop>
             <source src="../../public/video/waterfall_nature.mp4" type="video/mp4">
         </video>
@@ -12,9 +13,12 @@
         <img src="../../public/img/Logo.webp" alt="" id="logo-image" class="w-50">
         <article id="icons-article" class="d-flex gap-2 justify-content-end pe-3 align-items-center fs-4 w-100">
             <a href="https://www.instagram.com/juntana.travell/" class="bi bi-instagram text-light" target="_blank"></a>
-            <a href="https://web.facebook.com/profile.php?id=61559691340230" class="bi bi-facebook text-light" target="_blank"></a>
-            <a href="https://www.youtube.com/channel/UCGMo9fH9OJ1O1d3Lkb7ybPA" class="bi bi-youtube text-light" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/delta-theme-39489b30a/" class="bi bi-linkedin text-light" target="_blank"></a>
+            <a href="https://web.facebook.com/profile.php?id=61559691340230" class="bi bi-facebook text-light"
+                target="_blank"></a>
+            <a href="https://www.youtube.com/channel/UCGMo9fH9OJ1O1d3Lkb7ybPA" class="bi bi-youtube text-light"
+                target="_blank"></a>
+            <a href="https://www.linkedin.com/in/delta-theme-39489b30a/" class="bi bi-linkedin text-light"
+                target="_blank"></a>
         </article>
     </section>
 
@@ -46,7 +50,7 @@
                 <img class="w-100 mb-4 rounded" src="../../public/img/cabo-de-la-vela-la-guajira.webp" alt="">
             </a>
         </div>
-    
+
         <div tabindex="-1" aria-labelledby="modalImage1" class="modal fade" id="modalImage1">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -112,36 +116,40 @@
                 </div>
             </div>
         </div>
-    
+
     </section>
 
     <!-- Seccion por que viajar con nosotros -->
     <section class="d-flex flex-column text-center text-white" id="section-travel-with-us">
-        <p class="fs-3">¿Por que viajar con nosotros?</p>
+        <p class="fs-3" data-i18n="section-travel-with-us-title">¿Por que viajar con nosotros?</p>
         <article class="d-flex flex-wrap my-5">
             <div class="container-travel-with-us d-flex flex-column pb-4 gap-3">
                 <i class="icon-travel-with-us fa-regular fa-circle-check"></i>
-                <h3 class="fs-5">Autenticidad Cultural</h3>
-                <p class="text-travel-with-us">Experimenta la verdadera esencia de las comunidades indígenas,
-                    aprendiendo directamente de sus tradiciones y estilo de vida.</p>
+                <h3 class="fs-5" data-i18n="cultural-authenticity-title">Autenticidad Cultural</h3>
+                <p class="text-travel-with-us" data-i18n="cultural-authenticity-description">Experimenta la verdadera
+                    esencia de las comunidades indígenas, aprendiendo directamente de sus tradiciones y estilo de vida.
+                </p>
             </div>
             <div class="container-travel-with-us d-flex flex-column pb-4 gap-3">
                 <i class="icon-travel-with-us fa-solid fa-shield-halved"></i>
-                <h3 class="fs-5">Seguridad</h3>
-                <p class="text-travel-with-us">Viaja con tranquilidad sabiendo que nuestros guías nativos garantizan
-                    un conocimiento profundo del entorno, asegurando una experiencia segura y enriquecedora.</p>
+                <h3 class="fs-5" data-i18n="safety-title">Seguridad</h3>
+                <p class="text-travel-with-us" data-i18n="safety-description">Viaja con tranquilidad sabiendo que
+                    nuestros guías nativos garantizan un conocimiento profundo del entorno, asegurando una experiencia
+                    segura y enriquecedora.</p>
             </div>
             <div class="container-travel-with-us d-flex flex-column pb-4 gap-3">
                 <i class="icon-travel-with-us fa-solid fa-person-hiking"></i>
-                <h3 class="fs-5">Aventuras Únicas</h3>
-                <p class="text-travel-with-us">Disfruta de itinerarios personalizados y actividades exclusivas,
-                    desde ceremonias tradicionales hasta exploraciones naturales guiadas por expertos nativos.</p>
+                <h3 class="fs-5" data-i18n="unique-adventures-title">Aventuras Únicas</h3>
+                <p class="text-travel-with-us" data-i18n="unique-adventures-description">Disfruta de itinerarios
+                    personalizados y actividades exclusivas, desde ceremonias tradicionales hasta exploraciones
+                    naturales guiadas por expertos nativos.</p>
             </div>
-            <div class="container-travel-with-us">
-                <i class="icon-travel-with-us fa-solid fa-user-ninja d-flex flex-column pb-4 gap-3"></i>
-                <h3 class="fs-5">Guías Nativos</h3>
-                <p class="text-travel-with-us">Benefíciate del conocimiento y experiencia de guías locales, quienes
-                    te mostrarán los secretos y maravillas de sus tierras ancestrales.</p>
+            <div class="container-travel-with-us d-flex flex-column pb-4 gap-3">
+                <i class="icon-travel-with-us fa-solid fa-user-ninja"></i>
+                <h3 class="fs-5" data-i18n="native-guides-title">Guías Nativos</h3>
+                <p class="text-travel-with-us" data-i18n="native-guides-description">Benefíciate del conocimiento y
+                    experiencia de guías locales, quienes te mostrarán los secretos y maravillas de sus tierras
+                    ancestrales.</p>
             </div>
         </article>
     </section>
@@ -173,7 +181,4 @@
             </div>
         </div>
     </section>
-</main>
-
 </div>
-        
