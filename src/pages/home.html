@@ -4,12 +4,12 @@
         <h2 class="text-white fs-1" id="video-title">¡Bienvenido a Colombia!</h2>
         <p class="text-white fs-3" id="video-paragraph">Vive una experiencia unica de principio a fin en nuestros
             paraisos</p>
-        <button type="button" class="btn btn-primary p-3 px-5 mt-5" id="button-want-travel"> QUIERO VIAJAR </button>
+        <a type="button" class="btn btn-primary p-3 px-5 mt-5" id="button-want-travel" href="turismo"> QUIERO VIAJAR </a>
         <video muted autoplay loop>
             <source src="../../public/video/waterfall_nature.mp4" type="video/mp4">
         </video>
         <div class="filter"></div>
-        <img src="../../public/img/Logo.png" alt="" id="logo-image" class="w-50">
+        <img src="../../public/img/Logo.webp" alt="" id="logo-image" class="w-50">
         <article id="icons-article" class="d-flex gap-2 justify-content-end pe-3 align-items-center fs-4 w-100">
             <a href="https://www.instagram.com/juntana.travell/" class="bi bi-instagram text-light" target="_blank"></a>
             <a href="https://web.facebook.com/profile.php?id=61559691340230" class="bi bi-facebook text-light" target="_blank"></a>
@@ -18,8 +18,105 @@
         </article>
     </section>
 
+    <!-- Seccion lugares a conocer -->
+    <section class="row m-5">
+        <p class="fs-2 pe-5 pt-3 text-white text-center">
+            Lugares a Conocer</p>
+        <div class="col-lg-4 mb-4">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage1">
+                <img class="w-100 mb-4 rounded" src="../../public/img/cabo-de-la-vela-la-guajira.webp" alt="">
+            </a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage2">
+                <img class="w-100 mb-4 rounded" src="../../public/img/ciudadPerdida.webp" alt="">
+            </a>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage3">
+                <img class="w-100 mb-4 rounded" src="../../public/img/cano_cristales.webp" alt="">
+            </a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage4">
+                <img class="w-100 mb-4 rounded" src="../../public/img/cascadas-marinka.webp" alt="">
+            </a>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage5">
+                <img class="w-100 mb-4 rounded" src="../../public/img/Sarcófagos_de_Karajía.webp" alt="">
+            </a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage6">
+                <img class="w-100 mb-4 rounded" src="../../public/img/cabo-de-la-vela-la-guajira.webp" alt="">
+            </a>
+        </div>
+    
+        <div tabindex="-1" aria-labelledby="modalImage1" class="modal fade" id="modalImage1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body p-0">
+                        <img class="w-100 rounded" src="../../public/img/cabo-de-la-vela-text.webp" alt=""
+                            style="position: absolute ;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalImage2" class="modal fade" id="modalImage2">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body p-0">
+                        <img class="w-100 rounded" src="../../public/img/ciudad-perdida-texto.webp" alt=""
+                            style="position: absolute ;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalImage3" class="modal fade" id="modalImage3">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body p-0">
+                        <img class="w-100 rounded" src="../../public/img/cano-cristales-texto.webp" alt=""
+                            style="position: absolute ;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalImage4" class="modal fade" id="modalImage4">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body p-0">
+                        <img class="w-100 rounded" src="../../public/img/marinka-texto.webp" alt=""
+                            style="position: absolute ;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalImage5" class="modal fade" id="modalImage5">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body p-0">
+                        <img class="w-100 rounded" src="../../public/img/karajia-texto.webp" alt=""
+                            style="position: absolute ;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalImage6" class="modal fade" id="modalImage6">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body p-0">
+                        <img class="w-100 rounded" src="../../public/img/Punta-Gallinas-la-Guajira.webp" alt=""
+                            style="position: absolute ;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
     <!-- Seccion por que viajar con nosotros -->
-    <section class="d-flex flex-column text-center text-white pt-4" id="section-travel-with-us">
+    <section class="d-flex flex-column text-center text-white" id="section-travel-with-us">
         <p class="fs-3">¿Por que viajar con nosotros?</p>
         <article class="d-flex flex-wrap my-5">
             <div class="container-travel-with-us d-flex flex-column pb-4 gap-3">
@@ -50,7 +147,7 @@
     </section>
 
     <!-- Seccion de comentarios -->
-    <section class="pb-5">
+    <section class="section-comments pb-5">
         <div id="carouselExampleIndicators" class="carousel slide d-flex flex-column gap-5">
             <div class="d-flex justify-content-center gap-4 align-items-center">
                 <button class="btn btn-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -65,11 +162,11 @@
                 </button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active h-100">
                     <div class="d-flex flex-wrap justify-content-center gap-3" id="slice-1">
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item h-100">
                     <div class="d-flex flex-wrap justify-content-center gap-3" id="slice-2">
                     </div>
                 </div>
