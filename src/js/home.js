@@ -27,8 +27,8 @@ export async function putComments(sliceUno, sliceDos) {
     for (let i = 0; i < 3; i++) {
         slice1.innerHTML += `
         
-        <div class="card">
-            <div class="card-body d-flex flex-column text-center gap-4">
+        <div class="card rounded comments-cards">
+            <div class="card-body d-flex flex-column text-center gap-4 rounded comments-cards">
                 <div class = "avatar-info d-flex align-items-center justify-content-center gap-4">
                     <img src="${userInformation[i]['avatar']}" alt="photo-user" id="user-avatar" class="w-50">
                     <div>
@@ -45,8 +45,8 @@ export async function putComments(sliceUno, sliceDos) {
     for (let i = 3; i < 6; i++) {
         slice2.innerHTML += `
         
-        <div class="card w-75">
-            <div class="card-body d-flex flex-column text-center gap-4">
+        <div class="card rounded comments-cards">
+            <div class="card-body d-flex flex-column text-center gap-4 rounded comments-cards">
                 <div class = "avatar-info d-flex align-items-center justify-content-center gap-4">
                     <img src="${userInformation[i]['avatar']}" alt="photo-user" id="user-avatar" class="w-50">
                     <div>

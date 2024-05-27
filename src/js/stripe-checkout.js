@@ -16,47 +16,36 @@ export async function stripeCheckout(classContainerCards, eachContainer) {
 
   const moneyFormat = (num) => `$${num.slice(0, -2)}.${num.slice(-2)}`;
 
-  Promise.all([
-    fetch("https://api.stripe.com/v1/products", fetchOptions),
-    fetch("https://api.stripe.com/v1/prices", fetchOptions),
-  ])
-    .then((responses) =>
-      Promise.all(responses.map((response) => response.json()))
-    )
-    .then((json) => {
-      //console.log(json)
-      products = json[0].data;
-      prices = json[1].data;
-      console.log(products);
-      console.log(prices);
+  try {
+    const [productsResponse, pricesResponse] = await Promise.all([
+      fetch("https://api.stripe.com/v1/products", fetchOptions),
+      fetch("https://api.stripe.com/v1/prices", fetchOptions),
+    ]);
 
-      prices.forEach((el) => {
-        let productData = products.filter(
-          (product) => product.id === el.product
-        );
-        console.log(productData);
+    if (!productsResponse.ok || !pricesResponse.ok) {
+      throw new Error('Error fetching data from Stripe API');
+    }
+
+    const productsData = await productsResponse.json();
+    const pricesData = await pricesResponse.json();
+
+    products = productsData.data;
+    prices = pricesData.data;
+
+    prices.forEach((el) => {
+      let productData = products.find((product) => product.id === el.product);
+      if (productData) {
         containerCards.innerHTML += `
-            <div class="each-container card text-black border-0" data-price=${
-              el.id
-            } style="width: 18rem;">
-            <img src="${
-              productData[0].images[0]
-            }" class="card-img-top no-rounded-top position-relative" alt="${
-          productData[0].name
-        }">
+          <div class="each-container card text-black border-0" data-price="${el.id}" style="width: 18rem;">
+            <img src="${productData.images[0]}" class="card-img-top no-rounded-top position-relative" alt="${productData.name}">
             <div class="card-body d-flex flex-column justify-content-end">
               <div class="card-price align-self-center position-absolute top-50">
                 <p class="card-title text-center m-0">Precio desde</p>
-                <p class="card-text text-center">${moneyFormat(
-                  el.unit_amount_decimal
-                )} ${el.currency}</p>
+                <p class="card-text text-center">${moneyFormat(el.unit_amount_decimal)} ${el.currency}</p>
               </div>
-              <div class="d-flex justify-content-between  ">
+              <div class="d-flex justify-content-between">
                 <div class="card-place d-flex flex-column justify-content-end align-items-start">
-                  <button class="card-title border-0 card-title-community m-0 community bg-transparent" data-price=${
-                    el.id
-                  }>${productData[0].name}</button>
-                  
+                  <button class="card-title border-0 card-title-community m-0 community bg-transparent" data-price="${el.id}">${productData.name}</button>
                 </div>
                 <div class="d-flex flex-column gap-3 align-items-center">
                   <button type="button" class="btn btn-buy-plan">comprar</button>
@@ -64,26 +53,23 @@ export async function stripeCheckout(classContainerCards, eachContainer) {
               </div>
             </div>
           </div>`;
-      });
-
-      let lastChild = containerCards.lastChild;
-      containerCards.removeChild(lastChild);
-    })
-    .catch((err) => {
-      //console.log(err)
-      let message =
-        err.statusText ||
-        "Ocurrio un error al conectarse con el API  de Stripe";
-      containerCards.innerHTML = `<p>Error ${err.status}: ${message}</p>`;
+      }
     });
 
-  document.querySelector(".btn-buy-plan").addEventListener("click", (e) => {
-    console.log(e.target);
+    if (containerCards.firstChild) {
+      containerCards.removeChild(containerCards.firstChild);
+    }
+    
+  } catch (err) {
+    console.error(err);
+    let message = err.message || "Ocurrió un error al conectarse con la API de Stripe";
+    containerCards.innerHTML = `<p>Error: ${message}</p>`;
+  }
+
+  document.addEventListener("click", (e) => {
+    console.log(e.target)
     if (e.target.matches(".btn-buy-plan")) {
-      let price = document
-        .querySelector(".each-container")
-        .getAttribute("data-price");
-      console.log(price);
+      let price = e.target.closest(".each-container").getAttribute("data-price");
       Stripe(STRIPE_KEYS.public)
         .redirectToCheckout({
           lineItems: [{ price: price, quantity: 1 }],
@@ -92,7 +78,6 @@ export async function stripeCheckout(classContainerCards, eachContainer) {
           cancelUrl: "http://localhost:5173/pagonegado",
         })
         .then((res) => {
-          console.log(res);
           if (res.error) {
             containerCards.insertAdjacentHTML("afterend", res.error.message);
           }
