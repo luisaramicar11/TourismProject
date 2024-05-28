@@ -898,54 +898,29 @@ a {
     background-size: cover;
     background-color: rgb(40, 40, 40);
     background-blend-mode: soft-light;
-    display: flex;
-    padding: 2rem;
+}
+.Juntana-logo{
+    width: 60vw;
 }
 
-/*Set background image for footer banner*/
-.safe-contacs {
-    display: none;
-}
-
-/*Styles for the Juntana logo*/
-.Juntana-logo {
-    width: 18rem;
-    height: 18rem;
-}
-
-/*Styles for the copyright text*/
-.copyrigth {
-    color: white;
-}
-
-/*From here start the decoration of the desktop view*/
-
-/*Media query for screens wider than 768px*/
-@media(min-width:768px) {
-
-    /*Show safe contacts and list items on larger screens*/
-    .safe-contacs,
-    li {
-        text-decoration: none;
-        color: white;
-        display: block;
-    }
-
-
-    /*Adjust safe contacts section for larger screens*/
-    .safe-contacs {
-        margin-top: 7rem;
-        width: 12rem;
-        height: 18rem;
-    }
-
-    /*Adjust copyright text for larger screens*/
-    .copyrigth {
+@media (min-width : 1000px) {
+    .display.footer {
         display: flex;
-        flex-wrap: wrap;
-        width: 12rem;
+        justify-content: space-around;
+        align-items: center;
+        margin: 05vw;
     }
 }
+
+@media (min-width : 1200px) {
+    .display.footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 05vw;
+    }
+}
+
 
 //Burble styles
 
@@ -973,7 +948,7 @@ a {
 .container-burble {
     width: 75px;
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     right: 20px;
     z-index: 10;
 }
