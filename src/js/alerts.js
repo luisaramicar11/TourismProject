@@ -1,7 +1,6 @@
 // Importing the SweetAlert2 library
 import Swal from 'sweetalert2'
 
-
 // Configuration for toast notifications
 const Toast = Swal.mixin({
     toast: true,
