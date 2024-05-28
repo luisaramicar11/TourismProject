@@ -93,7 +93,7 @@ setTimeout(() => {
 
 
 
-// Dashboard
+//Dashboard
 
 // (function () {
 //     const userSesion = localStorage.getItem("userSesion")
@@ -131,6 +131,35 @@ setTimeout(() => {
 // const firstLetterName = userName.charAt(0).toUpperCase()
 // const firstLetterLastName = lastName.charAt(0).toUpperCase()
 
+// registerUserHTML.innerHTML = `
+// <div class="card">
+//     <div class="card-header fs-5" style="background-color: #490019; color:white" >
+//         Informacion Personal
+//     </div>
+//     <div class="card-body">
+//         <blockquote class="blockquote mb-0">
+//             <p><span>ID:1</span>| Nombre de usuario: Julian Forero </p>
+//             <footer class="blockquote-footer">Correo Electronico <cite title="Source Title">julix4212@gmail.com</cite>
+//             </footer>
+//         </blockquote>
+//     </div>
+// </div>
+// `
+// textLogo.innerHTML = `
+// <div class="d-flex" style="width:100%">
+//     <div class="rounded-circle " style="background-color: #490019; width: 15vw; height: 15vw">
+//         <span class="d-flex justify-content-center" style="font-size: 9vw; color:white" >
+//            JF
+//         </span>
+//     </div>
+//     <div class="d-flex align-items-end" style="width: 50vw;height: 18vw">
+//         <h3 class="text-center " style="font-size: 4vw; border-bottom: solid #490019; color:#490019; ">¡Bienvenido ${userName} ${lastName}!</h3>
+        
+//     </div>
+
+
+// </div>
+// `
 
 // registerUserHTML.innerHTML = `
 // <div class="card">
