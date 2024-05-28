@@ -1,44 +1,42 @@
 // Function for form validations
+//"#register-form [required]"
+export function formValidations(varInputsSelector) {
+    console.log("entre a validaciones");
 
-export function formValidations(varInputs) {
-    const d = document
     // Function for form validations
-    const inputs = document.querySelectorAll(varInputs)
-    console.log(inputs)
+    const inputs = document.querySelectorAll(varInputsSelector);
+    console.log(inputs);
 
     // Create error message spans for each input
     inputs.forEach(input => {
-        const span = document.createElement("span")
-        span.id = input.name;
+        const span = document.createElement("span");
+        span.id = input.name + "-error";  // Changed id to avoid conflicts
         span.textContent = input.title;
-        span.classList.add("contact-form-error", "none")
-        input.insertAdjacentElement("afterend", span)
+        span.classList.add("contact-form-error", "none");
+        input.insertAdjacentElement("afterend", span);
+    });
 
-    })
     // Event listener for keyup events
-    d.addEventListener("keyup", (e) => {
-        if (e.target.matches("#register-form [required]")) {
-            let input = e.target
-            let pattern = input.pattern
+    document.addEventListener("keyup", (e) => {
+        if (Array.from(inputs).includes(e.target)) {
+            let input = e.target;
+            let pattern = input.pattern;
 
             if (pattern && input.value !== "") {
-                let rergex = new RegExp(pattern)
-                return !rergex.exec(input.value)
-                
-                // Add or remove 'is-active' class based on validation
-                ? d.getElementById(input.name).classList.add("is-active")
-                : d.getElementById(input.name).classList.remove("is-active")
-            }
-            if (!pattern) {
+                let regex = new RegExp(pattern);
 
-                // Add or remove 'is-active' class if the field is empty
-                return e.target.value
-                    ? d.getElementById(input.name).classList.add("is-active")
-                    : d.getElementById(input.name).classList.remove("is-active")
+                if (!regex.test(input.value)) {
+                    document.getElementById(input.name + "-error").classList.add("is-active");
+                } else {
+                    document.getElementById(input.name + "-error").classList.remove("is-active");
+                }
+            } else {
+                if (input.value === "") {
+                    document.getElementById(input.name + "-error").classList.add("is-active");
+                } else {
+                    document.getElementById(input.name + "-error").classList.remove("is-active");
+                }
             }
         }
-    })
-
+    });
 }
-
-

@@ -5,7 +5,11 @@ import {routes} from "./routes.js"
 import { infoCommunity } from './planCommunity.js'
 import {stripeCheckout} from './stripe-checkout.js'
 import { putComments } from './home.js'
-import Swal from 'sweetalert2'
+import {register} from './register.js'
+import {formValidations} from "./validations.js"
+import {login} from "./login.js"
+
+
 //import {translate} from "./translate.js"
 
 // Selecting input fields from the form
@@ -15,12 +19,17 @@ routes();
 setTimeout(() => {
     stripeCheckout(".container-cards-plan");
     putComments("#slice-1", "#slice-2");
+    register(".register-form", ".user-name", ".last-name", ".email", ".password-sign-up", ".confirm-password", ".traigo info");
+    formValidations(".register-form [required]");
+    login(".register-form-signin", ".email-signin", ".password-signin")
     }, 1000);
     if (window.location.pathname === '/plans') {
       setTimeout(() => {
       infoCommunity(".plan-community")
       }, 100);
   }
+
+
 
     document.addEventListener('DOMContentLoaded', () => {
         const languageSelector = document.getElementById('language-selector');
@@ -54,9 +63,6 @@ setTimeout(() => {
 
 //translate('[data-i18n]')    
 
-
- 
-
 //funciones de comunidades y nosotros
 /* $('.slider-for').slick({
     slidesToShow: 1,
@@ -73,7 +79,7 @@ setTimeout(() => {
     centerMode: true,
     focusOnSelect: true
   });
- */
+ *//* 
   (function() {
     'use strict';
     window.addEventListener('load', function() {
@@ -88,7 +94,7 @@ setTimeout(() => {
             }, false);
         });
     }, false);
-})();
+})(); */
 
 
 
