@@ -57,14 +57,12 @@ body {
     }
 }
 
-.btn-login {
-    border-color: #B70044;
-    color: #B70044;
+.btn-login{
+    font-size: 2rem;
 }
 
-.btn-login:hover {
-    background-color: #B70044;
-    border-color: #ffff;
+.btn-login:hover { 
+    color: #B70044;
 }
 
 .btn-sign-up {
