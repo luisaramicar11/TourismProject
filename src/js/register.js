@@ -9,7 +9,6 @@ export function register(formSelector, userNameSelector, lastNameSelector, email
     //register-form
     //calling the form by it ID
 let form = document.querySelector(formSelector)
-let traigoInfo = document.querySelector(traigoInfoSelector)
 
 console.log(form)
 
@@ -23,15 +22,16 @@ let confirmPassword = document.querySelector(confirmPasswordSelector)
 // Event listener for form submission
 form.addEventListener("submit", async (event) => {
     event.preventDefault()
+    console.log('Email value before check:', email.value);
     // Check if the entered email is already registered
-    const revisionEmail = await checkEmail(email)
+    const revisionEmail = await checkEmail(email.value)
 
      // Check if the entered password matches the confirmation password
     const revisionPassword = checkPassword(password, confirmPassword)
 
     // If email and password are valid, register the user
     if ((revisionEmail === true) && (revisionPassword === true)) {
-        registerUser(userName, lastName, email, password)
+        await registerUser(userName, lastName, email, password)
         showAlertSuccess("Su perfil fue creado con exito")
         window.location.href = "/signin"// Redirect signing after successful registration
       }
