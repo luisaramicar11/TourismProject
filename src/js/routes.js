@@ -27,7 +27,7 @@ export const routes = () => {
             { path: "/acerca", view: () => loadHtml('./src/pages/Nosotros.html') },
             { path: "/comunidades", view: () => loadHtml('./src/pages/Comunidades.html') },
             { path: "/turismo", view: () => loadHtml('./src/pages/plansTourism.html') },
-            { path: "/iniciosesion", view: () => loadHtml('./src/pages/singin.html') },
+            { path: "/signin", view: () => loadHtml('./src/pages/signin.html') },
             { path: "/signup", view: () => loadHtml('./src/pages/signup.html') },
             { path: "/404", view: () => loadHtml('./src/pages/error404.html')},
             { path: "/plans", view: () => loadHtml('./src/pages/planCommunity.html')},
