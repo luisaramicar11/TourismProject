@@ -900,7 +900,7 @@ a {
     background-blend-mode: soft-light;
 }
 .Juntana-logo{
-    width: 60vw;
+    width: 10rem;
 }
 
 @media (min-width : 1000px) {
@@ -1004,4 +1004,8 @@ a {
 #btn-deploy:checked~.btn-deploy label {
     transform: rotate(135deg);
     font-size: 25px;
+}
+
+.seccion-signup{
+    height: 50rem;
 }
