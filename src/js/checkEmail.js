@@ -2,10 +2,12 @@
 export async function checkEmail(email) {
     const response = await fetch(`http://localhost:3000/userTroll?email=${email.value}`)
     const data = await response.json()
-    
+  
     if (data.length > 0) {
-        return false // Email is not registered
+        //verificacion de no repeticion de Emails
+        return true
     } else {
-        return true // Email already exists
+        // If user doesn't exist, return false
+        return false
     }
 }
