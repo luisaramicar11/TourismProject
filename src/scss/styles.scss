@@ -57,11 +57,11 @@ body {
     }
 }
 
-.btn-login{
+.btn-login {
     font-size: 1rem;
 }
 
-.btn-login:hover { 
+.btn-login:hover {
     color: #000;
 }
 
@@ -746,8 +746,16 @@ form {
 /*From here start the decoration for the mobile view*/
 .right-side {
     padding-top: 3rem;
-   
-    
+}
+
+.right-side-1 {
+    padding-top: 10rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .button-sing1 {
@@ -844,10 +852,11 @@ a {
     }
 }
 
-.form-container{
+.form-container {
     margin-top: 1rem;
     margin-bottom: 5rem;
 }
+
 /*From here start the decoration of the desktop view*/
 
 @media (min-width:768px) {
@@ -882,6 +891,18 @@ a {
         justify-content: center;
         align-items: center;
     }
+
+    .banner-container-1 {
+        background-image: url("../../public/img/indigenous-1531-x-980-background-ut1me63d9zddtfoz.webp");
+        background-size: cover;
+        background-position: center;
+        height: 0 auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -898,7 +919,8 @@ a {
     background-color: rgb(40, 40, 40);
     background-blend-mode: soft-light;
 }
-.juntana-logo{
+
+.juntana-logo {
     width: 10rem;
 }
 
@@ -1004,4 +1026,3 @@ a {
     transform: rotate(135deg);
     font-size: 25px;
 }
-

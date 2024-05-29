@@ -94,12 +94,12 @@ export function infoCommunity(plan) {
       <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
         <p>${community.activity_itinerary.day_3.description.act_1}</p>
-        <p>${community.activity_itinerary.day_2.description.act_2}</p>
-        <p>${community.activity_itinerary.day_2.description.act_3}</p>
-        <p>${community.activity_itinerary.day_2.description.act_4}</p>
-        <p>${community.activity_itinerary.day_2.description.act_5}</p>
-        <p>${community.activity_itinerary.day_2.description.act_6}</p>
-        <img src="${community.activity_itinerary.day_2.image}" alt="${community.activity_itinerary.day_3.nameDay}">
+        <p>${community.activity_itinerary.day_3.description.act_2}</p>
+        <p>${community.activity_itinerary.day_3.description.act_3}</p>
+        <p>${community.activity_itinerary.day_3.description.act_4}</p>
+        <p>${community.activity_itinerary.day_3.description.act_5}</p>
+        <p>${community.activity_itinerary.day_3.description.act_6}</p>
+        <img src="${community.activity_itinerary.day_3.image}" alt="${community.activity_itinerary.day_3.nameDay}">
         </div>
       </div>
     </div>
