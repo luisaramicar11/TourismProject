@@ -1,26 +1,20 @@
-import { checkEmail } from "./checkEmail"
-(function () {
-    const userSesion = localStorage.getItem("userSesion")
-    if (userSesion != null) {
-        window.location.href = "/dashboard"
-    }
-})()
+import { checkEmailLogin} from "./checkEmailLogin.js"
 
-export function login(formSelector, emailSelector, passwordSelector){
+export async function login(formSelector, emailSelector, passwordSelector){
+    console.log("entre al login")
 // Select the login form
 const form = document.querySelector(formSelector)
-
+console.log(form)
 // Select the input fields from the form
-const email = document.getElementById(emailSelector)
-const password = document.getElementById(passwordSelector)
+const email = document.querySelector(emailSelector)
+const password = document.querySelector(passwordSelector)
 
 // Event listener for form submission
 form.addEventListener("submit", async (event) => {
     event.preventDefault()
 
     // Check if the email exists in the databas
-    const user = await checkEmail(email)
-
+    const user = await checkEmailLogin(email.value)
     if (user === false) {
         // If user doesn't exist, show alert    
         alert("El usuario no esta registrado")
@@ -37,4 +31,6 @@ form.addEventListener("submit", async (event) => {
         }
     }
 })
+
+// Function to check if the email exists in the database
 }

@@ -14,21 +14,39 @@ import {login} from "./login.js"
 
 // Selecting input fields from the form
 
+
 routes();
+
+function checkUserSession() {
+  try {
+      const userSesion = localStorage.getItem("userSesion");
+      if (userSesion !== null) {
+          window.location.href = "/dashboard";
+      }
+  } catch (error) {
+      console.error("Error al verificar la sesión del usuario:", error);
+  }
+}
+
+checkUserSession();
 
 setTimeout(() => {
     stripeCheckout(".container-cards-plan");
     putComments("#slice-1", "#slice-2");
-    register(".register-form", ".user-name", ".last-name", ".email", ".password-sign-up", ".confirm-password", ".traigo info");
+    
+    register(".register-form", ".user-name", ".last-name", ".email", ".password-sign-up", ".confirm-password");
+    login(".register-form-signin", ".email-signin", ".password-signin") 
     formValidations(".register-form [required]");
-    login(".register-form-signin", ".email-signin", ".password-signin")
     }, 1000);
+    
+    
+      
     if (window.location.pathname === '/plans') {
       setTimeout(() => {
       infoCommunity(".plan-community")
       }, 100);
   }
-
+  
 
 
     document.addEventListener('DOMContentLoaded', () => {
