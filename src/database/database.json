@@ -558,6 +558,13 @@
       "lastName": "Londoño Valle",
       "email": "londonovalleluisalejandro@gmail.com",
       "password": "Olakeace23!"
+    },
+    {
+      "id": "b407",
+      "userName": "javier",
+      "lastName": "combita",
+      "email": "javier@gmail.com",
+      "password": "Combita1234$"
     }
   ]
 }
