@@ -38,8 +38,21 @@ setTimeout(() => {
     }, 100);
 }
   
+document.addEventListener('DOMContentLoaded', function() {
+  const accordionItems = document.querySelectorAll('.accordion-item');
 
+  accordionItems.forEach(item => {
+    item.addEventListener('click', function() {
+      const collapseTarget = this.querySelector('.accordion-collapse');
 
+      if (collapseTarget.classList.contains('show')) {
+        collapseTarget.classList.remove('show');
+      }
+    });
+  });
+});
+
+//Cambio de idioma
     document.addEventListener('DOMContentLoaded', () => {
         const languageSelector = document.getElementById('language-selector');
         languageSelector.addEventListener('change', (event) => {
