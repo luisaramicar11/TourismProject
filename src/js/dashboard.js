@@ -25,8 +25,9 @@ let registerUser
 const keys = Object.keys(localStorage);
 
 // // Iterar sobre las claves y obtener los valores
-keys.forEach(function (key) {
-    const value = localStorage.getItem(key);
+keys.forEach(function () {
+    const value = localStorage.getItem('userSesion');
+    console.log(value)
     registerUser = JSON.parse(value);;
 });
 
