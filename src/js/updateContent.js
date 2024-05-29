@@ -7,4 +7,3 @@ export function updateContent(datas){
    
 }
 
-'[data-i18n]'
