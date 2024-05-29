@@ -544,12 +544,41 @@
       "lastName": "sggs",
       "email": "sgs@dggd.com",
       "password": "Olakeace23!"
+
     },
     {
       "id": "44da",
-      "userName": "Julian",
+      "userName": "Juan",
       "lastName": "Forero",
-      "email": "julix4212@gmail.com",
+      "email": "julix425612@gmail.com",
+      "password": "Olakeace23!"
+    },
+    {
+      "id": "1d3f",
+      "userName": "sffsfsssffsffs",
+      "lastName": "sfsfs",
+      "email": "holisssss@dgdg.com",
+      "password": "Olakeace23!"
+    },
+    {
+      "id": "2e9e",
+      "userName": "Alejandro",
+      "lastName": "Londoño Valle",
+      "email": "londonovalleluisalejandro@gmail.com",
+      "password": "Olakeace23!"
+    },
+    {
+      "id": "b407",
+      "userName": "javier",
+      "lastName": "combita",
+      "email": "javier@gmail.com",
+      "password": "Combita1234$"
+    },
+    {
+      "id": "fdfa",
+      "userName": "Alejandro",
+      "lastName": "Valle",
+      "email": "londonovalleluislaejandro@gmail.com",
       "password": "Olakeace23!"
     }
   ]
