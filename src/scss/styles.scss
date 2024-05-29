@@ -745,11 +745,9 @@ form {
 
 /*From here start the decoration for the mobile view*/
 .right-side {
-    padding-top: 9rem;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 3rem;
+   
+    
 }
 
 .button-sing1 {
@@ -763,10 +761,6 @@ form {
 
 .text-o {
     color: var(--Juntana-letter);
-}
-
-.form-container {
-    background-color: var();
 }
 
 a {
@@ -849,6 +843,10 @@ a {
     }
 }
 
+.form-container{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
 /*From here start the decoration of the desktop view*/
 
 @media (min-width:768px) {
@@ -877,7 +875,7 @@ a {
         background-image: url("../../public/img/indigenous-1531-x-980-background-ut1me63d9zddtfoz.webp");
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1006,6 +1004,3 @@ a {
     font-size: 25px;
 }
 
-.seccion-signup{
-    height: 50rem;
-}
