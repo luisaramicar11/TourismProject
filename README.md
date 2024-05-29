@@ -1,6 +1,6 @@
 # Juntana
 
-**Juntana** es una plataforma que ofrece planes turísticos personalizados para visitar comunidades indígenas en Colombia. Nuestro objetivo es promover el turismo sostenible y responsable, al tiempo que apoyamos a las comunidades locales a través de experiencias culturales auténticas.
+*Juntana* es una plataforma que ofrece planes turísticos personalizados para visitar comunidades indígenas en Colombia. Nuestro objetivo es promover el turismo sostenible y responsable, al tiempo que apoyamos a las comunidades locales a través de experiencias culturales auténticas.
 
 ## Tabla de Contenidos
 
@@ -9,8 +9,6 @@
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
 
 ## Descripción
 
@@ -26,9 +24,26 @@ Nuestra misión es proporcionar a los viajeros una experiencia enriquecedora y e
 
 ## Características
 
-- **Planes Personalizados:** Diseñamos itinerarios a medida según los intereses y preferencias de los viajeros.
-- **Sostenibilidad:** Promovemos prácticas turísticas responsables que respetan el medio ambiente y la cultura local.
-- **Seguridad:** Trabajamos en estrecha colaboración con las comunidades para garantizar la seguridad de los visitantes.
-- **Apoyo a las Comunidades:** Un porcentaje de las ganancias se destina directamente a proyectos comunitarios.
+- *Planes Personalizados:* Diseñamos itinerarios a medida según los intereses y preferencias de los viajeros.
+- *Sostenibilidad:* Promovemos prácticas turísticas responsables que respetan el medio ambiente y la cultura local.
+- *Seguridad:* Trabajamos en estrecha colaboración con las comunidades para garantizar la seguridad de los visitantes.
+- *Apoyo a las Comunidades:* Un porcentaje de las ganancias se destina directamente a proyectos comunitarios.
+
+## Instalación
+
+- git clone https://github.com/luisaramicar11/TourismProject.git
+- npm install
+- npm install json-server
+- npx json-server src/database/database.json
+- npm run dev
+- https://trello.com/b/YhWzyHvN/juntana-proyecto-turismo-en-las-comunidades-indigenas-en-colombia
 
 
+
+
+## Contribuciones
+
+- Julian Forero Villa
+- Luisa Ramirez Cardona
+- Luis Alejandro Londoño Valle
+- Arlex Zapata Mesa
