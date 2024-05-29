@@ -8,47 +8,51 @@ import { putComments } from './home.js'
 import {register} from './register.js'
 import {formValidations} from "./validations.js"
 import {login} from "./login.js"
+import {translate} from "./translate.js"
 
-
-//import {translate} from "./translate.js"
 
 // Selecting input fields from the form
 
-
 routes();
-
-function checkUserSession() {
-  try {
-      const userSesion = localStorage.getItem("userSesion");
-      if (userSesion !== null) {
-          window.location.href = "/dashboard";
-      }
-  } catch (error) {
-      console.error("Error al verificar la sesión del usuario:", error);
-  }
-}
-
-checkUserSession();
 
 setTimeout(() => {
     stripeCheckout(".container-cards-plan");
     putComments("#slice-1", "#slice-2");
     
     register(".register-form", ".user-name", ".last-name", ".email", ".password-sign-up", ".confirm-password");
-    login(".register-form-signin", ".email-signin", ".password-signin") 
+    
     formValidations(".register-form [required]");
     }, 1000);
-    
-    
+
+
       
     if (window.location.pathname === '/plans') {
       setTimeout(() => {
       infoCommunity(".plan-community")
       }, 100);
   }
+
+  if (window.location.pathname === '/signin') {
+    setTimeout(() => {
+      login("#form-signin", ".email-signin", ".password-signin")
+    }, 100);
+}
   
+document.addEventListener('DOMContentLoaded', function() {
+  const accordionItems = document.querySelectorAll('.accordion-item');
 
+  accordionItems.forEach(item => {
+    item.addEventListener('click', function() {
+      const collapseTarget = this.querySelector('.accordion-collapse');
 
+      if (collapseTarget.classList.contains('show')) {
+        collapseTarget.classList.remove('show');
+      }
+    });
+  });
+});
+
+//Cambio de idioma
     document.addEventListener('DOMContentLoaded', () => {
         const languageSelector = document.getElementById('language-selector');
         languageSelector.addEventListener('change', (event) => {
@@ -79,7 +83,7 @@ setTimeout(() => {
       }
       
 
-//translate('[data-i18n]')    
+translate('[data-i18n]')    
 
 //funciones de comunidades y nosotros
 /* $('.slider-for').slick({
