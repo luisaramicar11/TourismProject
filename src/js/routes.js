@@ -56,7 +56,7 @@ export const routes = () => {
         // por defecto, que en este caso es la ruta 404, que en el arreglo de rutas esta en la posición 3
         if (!match) {
             match = {
-                route: routes[4],
+                route: routes[6],
                 isMatch: true
             };
         }
