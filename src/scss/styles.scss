@@ -381,7 +381,7 @@ body {
     width: 100%;
 }
 
-/* Estilos usados en planCummunity.html */
+/* Estilos usados en planCommunity.html */
 
 .hero-image {
     background-image: url('./../../public/img/amazonas.webp');
@@ -438,9 +438,42 @@ body {
     height: auto;
 }
 
+.text-acordeon{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.accordion-body{
+    flex-direction: column;
+}
+
+
 @media (min-width: 1000px) {
     .hero-content h1 {
         font-size: 4rem;
+    }
+
+    .accordion-body{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .container-img-acordeon{
+        width: 50%;
+        height: auto;
+    }
+
+    .text-acordeon p{
+        width: 100%;
+    }
+
+    .img-acordeon{
+        width: 100%;
+        height: 50%
     }
 
     .hero-content h2 {
