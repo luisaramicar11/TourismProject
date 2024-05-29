@@ -571,6 +571,13 @@
       "lastName": "combita",
       "email": "javier@gmail.com",
       "password": "Combita1234$"
+    },
+    {
+      "id": "fdfa",
+      "userName": "Alejandro",
+      "lastName": "Valle",
+      "email": "londonovalleluislaejandro@gmail.com",
+      "password": "Olakeace23!"
     }
   ]
 }
