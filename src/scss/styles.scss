@@ -744,12 +744,24 @@ form {
 /*From here start the decoration for the sing in, sing up*/
 
 /*From here start the decoration for the mobile view*/
+.form-container {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
 .right-side {
     padding-top: 3rem;
    
     
 }
+.right-side-1 {
+    padding-top: 10rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
 .button-sing1 {
     background-color: var(--juntana-button-color);
     color: var(--text-color);
@@ -882,6 +894,17 @@ a {
         justify-content: center;
         align-items: center;
     }
+    .banner-container-1 {
+        background-image: url("../../public/img/indigenous-1531-x-980-background-ut1me63d9zddtfoz.webp");
+        background-size: cover;
+        background-position: center;
+        height: 0 auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -1003,5 +1026,9 @@ a {
 #btn-deploy:checked~.btn-deploy label {
     transform: rotate(135deg);
     font-size: 25px;
+}
+
+.login-container{
+    margin: 0 auto;
 }
 
