@@ -56,15 +56,19 @@ export function infoCommunity(plan) {
         </button>
       </h2>
       <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <p>${community.activity_itinerary.day_1.description.act_1}</p>
-          <p>${community.activity_itinerary.day_1.description.act_1}</p>
-          <p>${community.activity_itinerary.day_1.description.act_1}</p>
-          <p>${community.activity_itinerary.day_1.description.act_1}</p>
-          <p>${community.activity_itinerary.day_1.description.act_1}</p>
-          <p>${community.activity_itinerary.day_1.description.act_1}</p>
-          <img src="${community.activity_itinerary.day_1.image}" class="img-fluid" alt=" ${community.activity_itinerary.day_1.nameDay}">
-        </div>
+        <div class="accordion-body d-flex justify-content-around w-100">
+          <div class="text-acordeon w-100">
+          <p class="w-100">${community.activity_itinerary.day_1.description.act_1}</p>
+          <p class="w-100">${community.activity_itinerary.day_1.description.act_2}</p>
+          <p class="w-100">${community.activity_itinerary.day_1.description.act_3}</p>
+          <p class="w-100">${community.activity_itinerary.day_1.description.act_4}</p>
+          <p class="w-100">${community.activity_itinerary.day_1.description.act_5}</p>
+          <p class="w-100">${community.activity_itinerary.day_1.description.act_6}</p>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center container-img-acordeon">
+          <img src="${community.activity_itinerary.day_1.image}" class="img-fluid img-acordeon w-75" alt=" ${community.activity_itinerary.day_1.nameDay}">
+          </div>
+          </div>
       </div>
     </div>
     <div class="accordion-item rounded-0">
@@ -74,14 +78,18 @@ export function infoCommunity(plan) {
         </button>
       </h2>
       <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-        <p>${community.activity_itinerary.day_2.description.act_1}</p>
-        <p>${community.activity_itinerary.day_2.description.act_2}</p>
-        <p>${community.activity_itinerary.day_2.description.act_3}</p>
-        <p>${community.activity_itinerary.day_2.description.act_4}</p>
-        <p>${community.activity_itinerary.day_2.description.act_5}</p>
-        <p>${community.activity_itinerary.day_2.description.act_6}</p>
-        <img src="${community.activity_itinerary.day_2.image}" alt=" ${community.activity_itinerary.day_2.nameDay}">
+        <div class="accordion-body d-flex justify-content-around w-100">
+        <div class="text-acordeon w-100">
+        <p class="w-100">${community.activity_itinerary.day_2.description.act_1}</p>
+        <p class="w-100">${community.activity_itinerary.day_2.description.act_2}</p>
+        <p class="w-100">${community.activity_itinerary.day_2.description.act_3}</p>
+        <p class="w-100">${community.activity_itinerary.day_2.description.act_4}</p>
+        <p class="w-100">${community.activity_itinerary.day_2.description.act_5}</p>
+        <p class="w-100">${community.activity_itinerary.day_2.description.act_6}</p>
+        </div>
+          <div class="d-flex flex-column justify-content-center align-items-center container-img-acordeon">
+        <img src="${community.activity_itinerary.day_2.image}" class="img-fluid img-acordeon w-75"  alt=" ${community.activity_itinerary.day_2.nameDay}">
+        </div>
         </div>
       </div>
     </div>
@@ -92,14 +100,18 @@ export function infoCommunity(plan) {
         </button>
       </h2>
       <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-        <p>${community.activity_itinerary.day_3.description.act_1}</p>
-        <p>${community.activity_itinerary.day_2.description.act_2}</p>
-        <p>${community.activity_itinerary.day_2.description.act_3}</p>
-        <p>${community.activity_itinerary.day_2.description.act_4}</p>
-        <p>${community.activity_itinerary.day_2.description.act_5}</p>
-        <p>${community.activity_itinerary.day_2.description.act_6}</p>
-        <img src="${community.activity_itinerary.day_2.image}" alt="${community.activity_itinerary.day_3.nameDay}">
+        <div class="accordion-body d-flex justify-content-around w-100">
+        <div class="text-acordeon w-100">
+        <p class="w-100">${community.activity_itinerary.day_3.description.act_1}</p>
+        <p class="w-100">${community.activity_itinerary.day_2.description.act_2}</p>
+        <p class="w-100">${community.activity_itinerary.day_2.description.act_3}</p>
+        <p class="w-100">${community.activity_itinerary.day_2.description.act_4}</p>
+        <p class="w-100">${community.activity_itinerary.day_2.description.act_5}</p>
+        <p class="w-100">${community.activity_itinerary.day_2.description.act_6}</p>
+        </div>
+          <div class="d-flex flex-column justify-content-center align-items-center container-img-acordeon">
+        <img src="${community.activity_itinerary.day_2.image}" class="img-fluid img-acordeon w-75"  alt="${community.activity_itinerary.day_3.nameDay}">
+        </div>
         </div>
       </div>
     </div>

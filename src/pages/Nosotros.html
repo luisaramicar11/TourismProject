@@ -14,12 +14,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed gap-4" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" data-i18n="welcome-juntana">
                                 ¡Bienvenidos a JUNTANA!
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body text2-responsive">
+                            <div class="accordion-body text2-responsive" data-i18n="text-welcome-juntana">
                                 En Viajeros Colombia Agencia de Viajes, no
                                 solo somos una
                                 agencia de viajes, sino también narradores de historias, arquitectos de aventuras y
@@ -41,7 +41,7 @@
     </article>
     <article class="mt-5">
         <div>
-            <h2 class="text-light text-center">Visítanos</h2>
+            <h2 class="text-light text-center" data-i18n="visit-us">Visítanos</h2>
         </div>
         <div class="mx-5">
             <iframe
@@ -52,14 +52,14 @@
     </article>
     <article class="mt-5">
         <div class="mb-5">
-            <h2 class="text-light text-center">Contáctanos</h2>
+            <h2 class="text-light text-center" data-i18n="contact-us">Contáctanos</h2>
         </div>
         <div class="mx-5 d-flex justify-content-center">
             <form class="row g-3 p-3 rounded-3 needs-validation" id="contactForm" novalidate
                 action="https://formspree.io/f/xjvndoew" method="POST">
                 <div class="col-md-12">
-                    <label for="validationCustom01" class="form-label text-black">Nombre</label>
-                    <input type="text" class="form-control" id="validationCustom01" placeholder="Ingresa tu nombre"
+                    <label for="validationCustom01" class="form-label text-black" data-i18n="contact-form-name">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Ingresa tu nombre" data-i18n= "placeholder.validationCustom01"
                         required>
                 </div>
                 <div class="col-md-12 form-group">
@@ -68,19 +68,19 @@
                         placeholder="Ingresa tu email de contacto">
                 </div>
                 <div class="col-md-12">
-                    <label for="validationCustom01" class="form-label text-black">Telefono</label>
+                    <label for="validationCustom01" class="form-label text-black" data-i18n="contact-form-phone">Telefono</label>
                     <input type="tel" class="form-control" placeholder="Ingresa tu telefono de contacto" required>
                 </div>
                 <div class="col md-12 form-group">
-                    <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                    <label for="exampleFormControlTextarea1" class="form-label" data-i18n="contact-form-comments">Comentarios</label>
                     <textarea class="form-control" id="message" name="message" rows="4" required
                         placeholder="Por favor, introduce un mensaje."></textarea>
                     <div class="invalid-feedback"></div>
                 </div>
 
                 <div class="col-12">
-                    <button class="btn btn-reset" type="reset">Cancelar</button>
-                    <button class="btn btn-submit" type="submit">Enviar</button>
+                    <button class="btn btn-reset" type="reset" data-i18n="button-cancel">Cancelar</button>
+                    <button class="btn btn-submit" type="submit" data-i18n="button-send">Enviar</button>
                 </div>
             </form>
         </div>

@@ -40,7 +40,7 @@ export async function stripeCheckout(classContainerCards, eachContainer) {
             <img src="${productData.images[0]}" class="card-img-top no-rounded-top position-relative" alt="${productData.name}">
             <div class="card-body d-flex flex-column justify-content-end">
               <div class="card-price align-self-center position-absolute top-50">
-                <p class="card-title text-center m-0">Precio desde</p>
+                <p class="card-title text-center m-0">Precio</p>
                 <p class="card-text text-center">${moneyFormat(el.unit_amount_decimal)} ${el.currency}</p>
               </div>
               <div class="d-flex justify-content-between">
