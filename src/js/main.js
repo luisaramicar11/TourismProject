@@ -9,6 +9,7 @@ import {register} from './register.js'
 import {formValidations} from "./validations.js"
 import {login} from "./login.js"
 import {translate} from "./translate.js"
+import {dashboard} from "./dashboard.js"
 
 
 // Selecting input fields from the form
@@ -18,12 +19,12 @@ routes();
 setTimeout(() => {
     stripeCheckout(".container-cards-plan");
     putComments("#slice-1", "#slice-2");
-    
     register(".register-form", ".user-name", ".last-name", ".email", ".password-sign-up", ".confirm-password");
-    
     formValidations(".register-form [required]");
+    
     }, 1000);
-
+   
+   
 
       
     if (window.location.pathname === '/plans') {
@@ -36,6 +37,16 @@ setTimeout(() => {
     setTimeout(() => {
       login("#form-signin", ".email-signin", ".password-signin")
     }, 100);
+}
+
+if (window.location.pathname === "/dashboard") {
+  document.addEventListener("DOMContentLoaded",(e)=>{
+    setTimeout(() => {
+      dashboard("#btn-logout", ".name-user", ".email-user")
+    }, 100);
+      
+  })
+
 }
   
 document.addEventListener('DOMContentLoaded', function() {
@@ -102,6 +113,7 @@ translate('[data-i18n]')
     focusOnSelect: true
   });
  *//* 
+
   (function() {
     'use strict';
     window.addEventListener('load', function() {
@@ -116,7 +128,7 @@ translate('[data-i18n]')
             }, false);
         });
     }, false);
-})(); */
+})();
 
 
 
@@ -188,4 +200,4 @@ translate('[data-i18n]')
 
 
 // </div>
-// `
+// `*/
