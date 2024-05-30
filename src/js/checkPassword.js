@@ -4,10 +4,11 @@
 export function checkPassword(password, confirmPassword) {
 
     if (password.value === confirmPassword.value) {
-        return false// Passwords match
+        console.log("Email is already registered");
+        return true// Passwords match
     } else {
-        
-        return true // Passwords don't match
+        console.log("Email is no already registered")
+        return false // Passwords don't match
     }
 }
 

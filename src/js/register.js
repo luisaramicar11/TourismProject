@@ -24,11 +24,12 @@ form.addEventListener("submit", async (event) => {
     event.preventDefault()
     console.log('Email value before check:', email.value);
     // Check if the entered email is already registered
-    const revisionEmail = await checkEmail(email.value)
+    const revisionEmail = await checkEmail(email)
 
      // Check if the entered password matches the confirmation password
     const revisionPassword = checkPassword(password, confirmPassword)
-
+  alert(revisionEmail, "email")
+  alert(revisionPassword, "password")
     // If email and password are valid, register the user
     if ((revisionEmail === true) && (revisionPassword === true)) {
         await registerUser(userName, lastName, email, password)
@@ -38,11 +39,12 @@ form.addEventListener("submit", async (event) => {
         window.location.href = "/signin"// Redirect signing after successful registration
       }
       // If email is valid but password is not , send the massage "las contraseñas no coinsiden"
-      if ((revisionEmail === true) && (revisionPassword === false)) {
+      else if ((revisionEmail === true) && (revisionPassword === false)) {
         showAlertWarning("Las contraseñas no coinciden")
       } 
       //Else send the message "el correo ya fue utilizado"
-       else {
+       else if (revisionEmail === false){
+        console.log("el correo ya fue utilizado")
         showAlertError("El correo ya fue utilizado")
       }
 })
