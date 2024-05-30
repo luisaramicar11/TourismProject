@@ -32,12 +32,14 @@ form.addEventListener("submit", async (event) => {
     // If email and password are valid, register the user
     if ((revisionEmail === true) && (revisionPassword === true)) {
         await registerUser(userName, lastName, email, password)
-        showAlertSuccess("Su perfil fue creado con exito")
+        setTimeout(() => {
+          showAlertSuccess("Su perfil fue creado con éxito")
+        }, 2000);
         window.location.href = "/signin"// Redirect signing after successful registration
       }
       // If email is valid but password is not , send the massage "las contraseñas no coinsiden"
       if ((revisionEmail === true) && (revisionPassword === false)) {
-        showAlertWarning("Las contraseñas no coinsiden")
+        showAlertWarning("Las contraseñas no coinciden")
       } 
       //Else send the message "el correo ya fue utilizado"
        else {

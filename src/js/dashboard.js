@@ -53,18 +53,18 @@ registerUserHTML.innerHTML=`
                 </div>
                 <div class="d-flex align-items-center" style="width: 74%;height: 12vw">
                     <h3 class="text-center "
-                        style="font-size: 3.6vw; border-bottom: solid #490019; color:#490019; width: 100%;">¡Bienvenido
+                        style="font-size: 3.6vw; border-bottom: solid #490019; color:#490019; width: 100%;" data-i18n="welcome">¡Bienvenido
                         ${userName} ${lastName}!</h3>
                 </div>
             </div>
             <div class="mt-3"  style="width: 100%;">
                 <div class="" style="width: 100%; height: 50%;">
-                    <div class="rounded-top-1 text-center" style="background-color: #490019; color:white; font-size: 1.8vw">
-                        Informacion Personal
+                    <div class="rounded-top-1 text-center" style="background-color: #490019; color:white; font-size: 1.8vw" data-i18n="persInf">
+                        Información Personal
                     </div>
-                    <div class="card-body rounded-bottom-1 px-4 pt-2" style="font-size: 1.5vw">
+                    <div class="card-body rounded-bottom-1 px-4 pt-2" style="font-size: 1.5vw" data-i18n="name">
                             <p><span>ID: ${idUser}</span> | Nombre de usuario: ${userName} ${lastName} </p>
-                            <footer class="blockquote-footer">Correo Electronico <cite
+                            <footer class="blockquote-footer" data-i18n="email">Correo Electrónico <cite
                                     title="Source Title">${email}</cite>
                             </footer>
                     </div>
@@ -80,8 +80,8 @@ registerUserHTML.innerHTML=`
                     </div>
                 </div>
                 <div class="" style="width: 75%; height: 100%;">
-                    <div class="rounded-top-1 text-center" style="background-color: #490019; color:white; font-size: 1.7vw">
-                        Correo Electronico
+                    <div class="rounded-top-1 text-center" style="background-color: #490019; color:white; font-size: 1.7vw" data-i18n="email">
+                        Correo Electrónico
                     </div>
                     <div class="card-body rounded-bottom-1 px-4 pt-2" style="font-size: 1.5vw">
                             <p>${email}</p>

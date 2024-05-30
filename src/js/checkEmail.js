@@ -5,9 +5,9 @@ export async function checkEmail(email) {
   
     if (data.length > 0) {
         //verificacion de no repeticion de Emails
-        return true
+        return false
     } else {
         // If user doesn't exist, return false
-        return false
+        return true
     }
 }

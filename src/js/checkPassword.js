@@ -4,10 +4,10 @@
 export function checkPassword(password, confirmPassword) {
 
     if (password.value === confirmPassword.value) {
-        return true // Passwords match
+        return false// Passwords match
     } else {
         
-        return false // Passwords don't match
+        return true // Passwords don't match
     }
 }
 
