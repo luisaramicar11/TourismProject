@@ -1,54 +1,39 @@
- <!-- Fluid container section -->
-        <section class="">
+<!-- Fluid container section -->
+<section>
+    <!-- Container for the login form and banner -->
+    <div class="row container-register">
+        <!-- Left side banner container with flex properties -->
+        <article class="banner-container-1 col-md-6 left-side d-flex flex-column justify-content-center align-items-center">
+        </article>
 
-            <!-- Container for the login form and banner -->
-            <div class="row container-register">
+        <!-- Right side login form container -->
+        <article class="col-md-6 right-side-1">
+            <!-- Centered content within the form container -->
+            <div>
+                <h2 class="text-center text-o" data-i18n="start-sesion">Inicia sesión</h2>
 
-                <!-- Left side banner container with flex properties -->
-                <article
-                    class="banner-container col-md-6 left-side d-flex flex-column justify-content-center align-items-center">
-                </article>
-
-                <!-- Right side login form container -->
-                <article class="col-md-6 right-side">
-
-                    <!-- Centered content within the form container -->
-                    <div class="w-100 ">
-                        <h2 class="text-center text-o">Inicia sesión</h2>
-
-                        <!-- Login form -->
-                        <form class="w-100" class="register-form-signin" id="form-signin">
-
-                            <!-- Form group for the email input -->
-                            <div class="form-group">
-                                <label for="correo text-o">Correo:</label>
-                                <input type="email" class="form-control email-signin" placeholder="Ingresa tu correo">
-                            </div>
-
-                            <!-- Form group for the password input -->
-                            <div class="form-group">
-                                <label for="contrasena text-o">Contraseña:</label>
-                                <input type="password" class="form-control password-signin" 
-                                    placeholder="Ingresa tu contraseña">
-                            </div>
-                            <!-- Checkbox for agreeing to terms with a label -->
-                            <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="recordar">
-                                <label class="form-check-label text-o" for="recordar">Tus datos personales serán usados
-                                    para mejorar la experiencia en nuestro sitio web, para acceder a tu cuenta y para
-                                    otros propósitos descritos en nuestra política de privacidad.</label>
-                            </div>
-
-                            <!-- Submit button for the form -->
-                            <button type="submit" class="btn d-flex center button-sing1 btn-block">Iniciar
-                                sesión</button>
-
-                            <!-- Link to the registration page if the user does not have an account -->
-                            <span class="register-link">Aun no tienes una cuenta,<a
-                                    href="/signup">registrate</a></span>
-
-                        </form>
+                <!-- Login form -->
+                <form class="w-100 register-form-signin" id="form-signin">
+                    <!-- Form group for the email input -->
+                    <div class="form-group w-75 login-container">
+                        <label for="correo" class="text-o" data-i18n="email">Correo:</label>
+                        <input type="email" class="form-control email-signin" placeholder="Ingresa tu correo">
                     </div>
-                </article>
+
+                    <!-- Form group for the password input -->
+                    <div class="form-group w-75 login-container">
+                        <label for="contrasena" class="text-o" data-i18n="password">Contraseña:</label>
+                        <input type="password" class="form-control password-signin mb-3" placeholder="Ingresa tu contraseña">
+                    </div>
+
+                    <!-- Submit button for the form -->
+                    <button type="submit" class="btn d-flex button-sing1" data-i18n="start-sesion">Iniciar sesión</button>
+
+                    <!-- Link to the registration page if the user does not have an account -->
+                    <a class="register-link" data-i18n="sentence-sesion" href="/signup">Aun no tienes una cuenta, regístrate</a>
+                </form>
             </div>
-        </section>
+        </article>
+    </div>
+</section>
+

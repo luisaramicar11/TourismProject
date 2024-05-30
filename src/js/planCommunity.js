@@ -5,16 +5,16 @@ export function infoCommunity(plan) {
   if (community) {
     document.querySelector(plan).innerHTML = `
           <div class="hero-image d-flex flex-column justify-content-center align-items-center text-white text-center ">
-        <div class="hero-opacity"></div>
+        <div class=""></div>
         <div class="hero-content d-md-flex h-100">
             
-                <div class="z-3 content-hero align-self-md-start align-self-lg-start w-50 text-md-start align-self-xl-start ">
-                    <h1 class="fw-bold">${community.community_name}</h1>
-                    <h2 class="">${community.defining_phrase}</h2>
-                    <p class="">${community.importance_description}</p>
+                <div class="content-hero text-start px-0 align-self-md-start align-self-lg-start w-50 text-md-start align-self-xl-start ">
+                    <h1 class="fw-bold text-fluid-1">${community.community_name}</h1>
+                    <h2 class="text-fluid-2">${community.defining_phrase}</h2>
+                    <p class="text-fluid-3">${community.importance_description}</p>
                 </div>
                 <div class="d-flex align-items-end justify-content-center align-self-md-end align-self-lg-end align-self-xl-end">
-                    <button class="z-3 fs-4 btn btn-custom fw-bold text-white p-4" id="quiero-comprar">QUIERO COMPRAR</button>
+                    <button class="z-3 fs-4 btn btn-custom fw-bold text-white" id="quiero-comprar">QUIERO COMPRAR</button>
                 </div> 
         </div>
     </div>
@@ -78,6 +78,7 @@ export function infoCommunity(plan) {
         </button>
       </h2>
       <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+<<<<<<< HEAD
         <div class="accordion-body d-flex justify-content-around w-100">
         <div class="text-acordeon w-100">
         <p class="w-100">${community.activity_itinerary.day_2.description.act_1}</p>
@@ -102,15 +103,15 @@ export function infoCommunity(plan) {
       <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body d-flex justify-content-around w-100">
         <div class="text-acordeon w-100">
-        <p class="w-100">${community.activity_itinerary.day_3.description.act_1}</p>
-        <p class="w-100">${community.activity_itinerary.day_2.description.act_2}</p>
-        <p class="w-100">${community.activity_itinerary.day_2.description.act_3}</p>
-        <p class="w-100">${community.activity_itinerary.day_2.description.act_4}</p>
-        <p class="w-100">${community.activity_itinerary.day_2.description.act_5}</p>
-        <p class="w-100">${community.activity_itinerary.day_2.description.act_6}</p>
+        <p>${community.activity_itinerary.day_3.description.act_1}</p>
+        <p>${community.activity_itinerary.day_3.description.act_2}</p>
+        <p>${community.activity_itinerary.day_3.description.act_3}</p>
+        <p>${community.activity_itinerary.day_3.description.act_4}</p>
+        <p>${community.activity_itinerary.day_3.description.act_5}</p>
+        <p>${community.activity_itinerary.day_3.description.act_6}</p>
         </div>
           <div class="d-flex flex-column justify-content-center align-items-center container-img-acordeon">
-        <img src="${community.activity_itinerary.day_2.image}" class="img-fluid img-acordeon w-75"  alt="${community.activity_itinerary.day_3.nameDay}">
+        <img src="${community.activity_itinerary.day_3.image}" class="img-fluid img-acordeon w-75"  alt="${community.activity_itinerary.day_3.nameDay}">
         </div>
         </div>
       </div>

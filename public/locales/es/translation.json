@@ -19,7 +19,7 @@
   "travelers-comments-title": "Algunos Viajeros Comentan Sobre JUNTANA",
   "places-to-know": "Lugares a conocer",
   "comments-title": "Algunos viajeros comentan sobre JUNTANA",
-
+  "footer": "2024 JUNTANA Todos los derechos reservados Medellín-Colombia",
   "welcome-juntana": "Bienvenido a juntana",
   "text-welcome-juntana": "En Viajeros Colombia Agencia de Viajes, no solo somos una agencia de viajes, sino también narradores de historias, arquitectos de aventuras y guías apasionados. Cada itinerario que diseñamos es una obra de arte, cuidadosamente creado para brindarles momentos inolvidables y exploraciones auténticas. Nuestro equipo dedicado está aquí para convertir sus sueños de viaje en realidades tangibles. Desde destinos exóticos hasta escapadas locales, cada experiencia es una oportunidad para descubrir, aprender y crecer. Únanse a nosotros en este emocionante viaje y descubran un mundo lleno de posibilidades. En Viajeros Colombia Agencia de Viajes, no solo vendemos viajes; creamos recuerdos que durarán toda la vida. ¡Bienvenidos a una nueva era de exploración!",
   "visit-us": "Visítanos",
@@ -55,10 +55,19 @@
   "date-experience8": "Del 17 al 19 de agosto",
   "date-experience9": "Del 17 al 19 de agosto",
   "text-experiences-soon": "Próximamente estaremos ofreciendo más fechas para viajar con nosotros",
-
+  "start-sesion":"Inicia sesión",
+  "email":"Correo",
+ "password":"Contraseña",
+ "sentence-sesion":"Aún no tienes una cuenta, regístrate",
+ "register":"registrate",
+ "create-count":"Crear cuenta",
+ "name":"Nombre",
+ "lastname":"Apellido",
+ "password-confirm":"Confirmar contraseña",
+ "personal-info":"Tus datos personales serán usados para mejorar la experiencia en nuestro sitio web, para acceder a tu cuenta y para otrospropósitos descritos en nuestra política de privacidad.",
   "title-communities": "Comunidades",
   "title-indigenous": "Indígenas",
-  "title-largest-communities": "Comunidades mas Numerosas",
+  "title-largest-communities": "Comunidades más Numerosas",
   "text1-largest-communities": "En sentido amplio, el término indígena (del latín: indigĕna nativo, de indu- dentro, y genus nacido)se aplica a todo aquello que es relativo a una población originaria del territorio que habita,cuyo establecimiento en él precede al de otras etnias o cuya presencia es lo suficientemente prolongada y estable como para tenerla por oriunda (es decir, originaria de un lugar).Con el mismo sentido se utiliza, con mayor frecuencia, el término nativo —muchas veces creído como equivalente—, presente en expresiones como «idioma nativo», que no es exactamente sinónimo de indígena, ya que en su correcto significado nativo significa al nacido en un territorio sea o no su linaje indígena de este. También es corriente emplear términos como «pueblos originarios», «naciones nativas» o «aborígenes»."
   
   }

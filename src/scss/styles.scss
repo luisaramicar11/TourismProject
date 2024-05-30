@@ -41,6 +41,10 @@ body {
     background-color: #390005;
 }
 
+.h-iframe{
+    height: 40rem;
+}
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -233,6 +237,7 @@ video {
     font-size: .8rem;
 }
 
+
 .container-travel-with-us {
     margin: 0 auto;
 }
@@ -283,9 +288,22 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.text-fluid-1{
+    font-size: 8vw !important;
+}
+
+.text-fluid-2{
+    font-size: 6vw !important;
+}
+
+.text-fluid-3{
+    font-size: 3vw !important;
+}
+
 .btn-custom {
     background-color: #B70044;
-    font-size: 1rem;
+    font-size: 4vw !important;
+    padding: 1rem;
 }
 
 .btn-buy-plan {
@@ -535,7 +553,40 @@ body {
         padding-left: 6rem;
         padding-top: 3rem;
     }
+
+    .title-plan {
+        font-size: 4vw !important;
+        color: hsl(338, 100%, 36%)
+    }
+
+    .text-fluid-1 {
+        font-size: 4vw !important; 
+      }
+    
+      .text-fluid-2 {
+        font-size: 3vw !important;
+      }
+    
+      .text-fluid-3 {
+        font-size: 2vw !important;
+      }
+
+      .btn-custom{
+        font-size: 1.5vw !important;
+        padding: 0.5rem;
+      }
+
+      .h-carousel-item{
+        height: 30rem !important;
+      }
+
+      .buy-experience{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between;;
+      }
 }
+
 
 .list-includes {
     list-style: none;
@@ -574,7 +625,7 @@ body {
 }
 
 .title-plan {
-    font-size: 4rem;
+    font-size: 15vw;
     color: hsl(338, 100%, 36%)
 }
 
@@ -777,17 +828,28 @@ form {
 /*From here start the decoration for the sing in, sing up*/
 
 /*From here start the decoration for the mobile view*/
+.form-container {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
 .right-side {
-    padding-top: 9rem;
+    padding-top: 3rem;
+   
+    
+}
+.right-side-1 {
+    padding-top: 10rem;
     height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-}
+    align-items: center;
 
+}
 .button-sing1 {
     background-color: var(--juntana-button-color);
     color: var(--text-color);
+    margin: 0 auto;
 }
 
 .login-form {
@@ -796,10 +858,6 @@ form {
 
 .text-o {
     color: var(--Juntana-letter);
-}
-
-.form-container {
-    background-color: var();
 }
 
 a {
@@ -882,6 +940,16 @@ a {
     }
 }
 
+.form-container{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.register-link {
+    display: flex;
+    text-justify: center;
+    justify-content: center;
+}
 /*From here start the decoration of the desktop view*/
 
 @media (min-width:768px) {
@@ -893,7 +961,7 @@ a {
 
     .register-link {
         display: flex;
-        text-align: justify;
+        text-justify: center;
         justify-content: center;
     }
 
@@ -910,11 +978,22 @@ a {
         background-image: url("../../public/img/indigenous-1531-x-980-background-ut1me63d9zddtfoz.webp");
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .banner-container-1 {
+        background-image: url("../../public/img/indigenous-1531-x-980-background-ut1me63d9zddtfoz.webp");
+        background-size: cover;
+        background-position: center;
+        height: 0 auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -1039,6 +1118,7 @@ a {
     font-size: 25px;
 }
 
-.seccion-signup{
-    height: 50rem;
+.login-container{
+    margin: 0 auto;
 }
+
