@@ -5,16 +5,16 @@ export function infoCommunity(plan) {
   if (community) {
     document.querySelector(plan).innerHTML = `
           <div class="hero-image d-flex flex-column justify-content-center align-items-center text-white text-center ">
-        <div class="hero-opacity"></div>
+        <div class=""></div>
         <div class="hero-content d-md-flex h-100">
             
-                <div class="z-3 content-hero align-self-md-start align-self-lg-start w-50 text-md-start align-self-xl-start ">
-                    <h1 class="fw-bold">${community.community_name}</h1>
-                    <h2 class="">${community.defining_phrase}</h2>
-                    <p class="">${community.importance_description}</p>
+                <div class="content-hero text-start px-0 align-self-md-start align-self-lg-start w-50 text-md-start align-self-xl-start ">
+                    <h1 class="fw-bold text-fluid-1">${community.community_name}</h1>
+                    <h2 class="text-fluid-2">${community.defining_phrase}</h2>
+                    <p class="text-fluid-3">${community.importance_description}</p>
                 </div>
                 <div class="d-flex align-items-end justify-content-center align-self-md-end align-self-lg-end align-self-xl-end">
-                    <button class="z-3 fs-4 btn btn-custom fw-bold text-white p-4" id="quiero-comprar">QUIERO COMPRAR</button>
+                    <button class="z-3 fs-4 btn btn-custom fw-bold text-white" id="quiero-comprar">QUIERO COMPRAR</button>
                 </div> 
         </div>
     </div>
@@ -57,12 +57,14 @@ export function infoCommunity(plan) {
       </h2>
       <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
+        
           <p>${community.activity_itinerary.day_1.description.act_1}</p>
           <p>${community.activity_itinerary.day_1.description.act_2}</p>
           <p>${community.activity_itinerary.day_1.description.act_3}</p>
           <p>${community.activity_itinerary.day_1.description.act_4}</p>
           <p>${community.activity_itinerary.day_1.description.act_5}</p>
           <p>${community.activity_itinerary.day_1.description.act_6}</p>
+        
           <img src="${community.activity_itinerary.day_1.image}" class="img-fluid" alt=" ${community.activity_itinerary.day_1.nameDay}">
         </div>
       </div>
@@ -81,7 +83,7 @@ export function infoCommunity(plan) {
         <p>${community.activity_itinerary.day_2.description.act_4}</p>
         <p>${community.activity_itinerary.day_2.description.act_5}</p>
         <p>${community.activity_itinerary.day_2.description.act_6}</p>
-        <img src="${community.activity_itinerary.day_2.image}" alt=" ${community.activity_itinerary.day_2.nameDay}">
+        <img src="${community.activity_itinerary.day_2.image}" class="img-fluid" alt=" ${community.activity_itinerary.day_2.nameDay}">
         </div>
       </div>
     </div>
@@ -99,7 +101,7 @@ export function infoCommunity(plan) {
         <p>${community.activity_itinerary.day_3.description.act_4}</p>
         <p>${community.activity_itinerary.day_3.description.act_5}</p>
         <p>${community.activity_itinerary.day_3.description.act_6}</p>
-        <img src="${community.activity_itinerary.day_3.image}" alt="${community.activity_itinerary.day_3.nameDay}">
+        <img src="${community.activity_itinerary.day_3.image}" class="img-fluid"  alt="${community.activity_itinerary.day_3.nameDay}">
         </div>
       </div>
     </div>

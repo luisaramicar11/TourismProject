@@ -41,6 +41,10 @@ body {
     background-color: #390005;
 }
 
+.h-iframe{
+    height: 40rem;
+}
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -233,6 +237,7 @@ video {
     font-size: .8rem;
 }
 
+
 .container-travel-with-us {
     margin: 0 auto;
 }
@@ -283,9 +288,22 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.text-fluid-1{
+    font-size: 8vw !important;
+}
+
+.text-fluid-2{
+    font-size: 6vw !important;
+}
+
+.text-fluid-3{
+    font-size: 3vw !important;
+}
+
 .btn-custom {
     background-color: #B70044;
-    font-size: 1rem;
+    font-size: 4vw !important;
+    padding: 1rem;
 }
 
 .btn-buy-plan {
@@ -502,7 +520,40 @@ body {
         padding-left: 6rem;
         padding-top: 3rem;
     }
+
+    .title-plan {
+        font-size: 4vw !important;
+        color: hsl(338, 100%, 36%)
+    }
+
+    .text-fluid-1 {
+        font-size: 4vw !important; 
+      }
+    
+      .text-fluid-2 {
+        font-size: 3vw !important;
+      }
+    
+      .text-fluid-3 {
+        font-size: 2vw !important;
+      }
+
+      .btn-custom{
+        font-size: 1.5vw !important;
+        padding: 0.5rem;
+      }
+
+      .h-carousel-item{
+        height: 30rem !important;
+      }
+
+      .buy-experience{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between;;
+      }
 }
+
 
 .list-includes {
     list-style: none;
@@ -541,7 +592,7 @@ body {
 }
 
 .title-plan {
-    font-size: 4rem;
+    font-size: 15vw;
     color: hsl(338, 100%, 36%)
 }
 

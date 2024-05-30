@@ -1,7 +1,7 @@
 {
   "itineraries": [
     {
-      "community_name": "Experiencia Nasa",
+      "community_name": "Nasa",
       "defining_phrase": "Un viaje inolvidable a las tradiciones ancestrales y paisajes majestuosos del suroccidente colombiano, donde la hospitalidad y la sabiduría indígena te esperan.",
       "importance_description": "Adentrate en un mundo donde la tradición y la modernidad coexisten armoniosamente, ofreciendo a los visitantes una perspectiva renovada sobre la importancia de la diversidad cultural y el respeto por la naturaleza.",
       "why_know_community": "Una oportunidad única para conectarse con una de las culturas indígenas más vibrantes y resilientes de Colombia. Estan invitados a descubrir la riqueza cultural, la sabiduría ancestral y la belleza natural de los territorios Nasa.",
@@ -59,7 +59,7 @@
       "id": "0ea8"
     },
     {
-      "community_name": "Experiencia Huitoto en el Amazonas",
+      "community_name": "Huitoto en el Amazonas",
       "defining_phrase": "Una inmersión en las tradiciones ancestrales y la exuberante naturaleza del Amazonas colombiano.",
       "importance_description": "Descubre la riqueza cultural y la conexión espiritual en un entorno de biodiversidad única.",
       "why_know_community": "Explora la cultura vibrante y resiliente de los Huitoto y conecta con la esencia misma de la selva amazónica.",
@@ -117,7 +117,7 @@
       "id": "8300"
     },
     {
-      "community_name": "Experiencia Witoto en el Amazonas",
+      "community_name": "Witoto en el Amazonas",
       "defining_phrase": "Una inmersión en las tradiciones ancestrales y la exuberante naturaleza del Amazonas colombiano.",
       "importance_description": "Descubre la riqueza cultural y la conexión espiritual en un entorno de biodiversidad única.",
       "why_know_community": "Explora la cultura vibrante y resiliente de los Huitoto y conecta con la esencia misma de la selva amazónica.",
@@ -175,7 +175,7 @@
       "id": "c9b2"
     },
     {
-      "community_name": "Experiencia Ticuna en el Amazonas",
+      "community_name": "Ticuna en el Amazonas",
       "defining_phrase": "Una inmersión en las tradiciones ancestrales y la exuberante naturaleza del Amazonas colombiano.",
       "importance_description": "Descubre la riqueza cultural y la conexión espiritual en un entorno de biodiversidad única.",
       "why_know_community": "Explora la cultura vibrante y resiliente de los Ticuna y conecta con la esencia misma de la selva amazónica.",
@@ -233,7 +233,7 @@
       "id": "bf8c"
     },
     {
-      "community_name": "Experiencia Kogui en la Sierra Nevada",
+      "community_name": "Kogui en la Sierra Nevada",
       "defining_phrase": "Una inmersión en las tradiciones ancestrales y la espiritualidad de la comunidad Kogui en la majestuosa Sierra Nevada de Santa Marta.",
       "importance_description": "Descubre la riqueza cultural y la conexión espiritual en un entorno de biodiversidad única, considerado sagrado por los Kogui.",
       "why_know_community": "Explora la cosmovisión única de los Kogui y su compromiso con la protección de la naturaleza y la preservación de la armonía en el mundo.",
@@ -291,7 +291,7 @@
       "id": "9738"
     },
     {
-      "community_name": "Experiencia Pastos en Nariño",
+      "community_name": "Pastos en Nariño",
       "defining_phrase": "Una inmersión en las tradiciones ancestrales y la rica cultura de la comunidad Pastos en las montañas de Nariño.",
       "importance_description": "Descubre la sabiduría ancestral y la conexión con la naturaleza en un entorno culturalmente vibrante y paisajes impresionantes.",
       "why_know_community": "Explora la cultura resiliente y las prácticas tradicionales de los Pastos y conecta con la historia y la naturaleza de Nariño.",
@@ -349,7 +349,7 @@
       "id": "5c31"
     },
     {
-      "community_name": "Experiencia Emberá",
+      "community_name": "Emberá",
       "defining_phrase": "Sumérgete en las tradiciones ancestrales y la exuberante selva del Chocó colombiano.",
       "importance_description": "Descubre la riqueza cultural y la conexión con la naturaleza en un entorno de biodiversidad impresionante.",
       "why_know_community": "Explora la cultura vibrante y resiliente de los Emberá y conecta con la esencia de la selva tropical del Chocó.",
@@ -407,7 +407,7 @@
       "id": "0424"
     },
     {
-      "community_name": "Experiencia Arhuaca en la Sierra Nevada de Santa Marta",
+      "community_name": "Arhuaca en la Sierra Nevada de Santa Marta",
       "defining_phrase": "Sumérgete en la sabiduría ancestral y la majestuosidad natural de los Arhuacos en la Sierra Nevada de Santa Marta.",
       "importance_description": "Descubre la riqueza cultural y la conexión espiritual en un entorno de biodiversidad única.",
       "why_know_community": "Explora la cultura vibrante y resiliente de los Arhuacos y conecta con la esencia de las montañas y valles de la Sierra Nevada.",
@@ -465,8 +465,8 @@
       "id": "465d"
     },
     {
-      "community_name": "Experiencia Wayuu en la Guajira",
-      "defining_phrase": "Vive la autenticidad y la herencia cultural de los Wayuu en el desierto de la Guajira.",
+      "community_name": "Wayúu en la Guajira",
+      "defining_phrase": "Vive la autenticidad y la herencia cultural de los Wayúu en el desierto de la Guajira.",
       "importance_description": "Sumérgete en la vida y tradiciones de la comunidad Wayuu, conectando con sus costumbres ancestrales y su entorno único.",
       "why_know_community": "Descubre la resiliencia y riqueza cultural de los Wayuu, aprendiendo de sus tradiciones y disfrutando de la belleza natural del desierto de la Guajira.",
       "representative_phrase": "Nuestra fortaleza reside en nuestras raíces y la inmensidad del desierto.",

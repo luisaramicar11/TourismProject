@@ -43,12 +43,12 @@ export async function stripeCheckout(classContainerCards, eachContainer) {
                 <p class="card-title text-center m-0">Precio</p>
                 <p class="card-text text-center">${moneyFormat(el.unit_amount_decimal)} ${el.currency}</p>
               </div>
-              <div class="d-flex justify-content-between">
+              <div class="d-flex flex-column buy-experience">
                 <div class="card-place d-flex flex-column justify-content-end align-items-start">
                   <button class="card-title border-0 card-title-community m-0 community bg-transparent" data-price="${el.id}">${productData.name}</button>
                 </div>
                 <div class="d-flex flex-column gap-3 align-items-center">
-                  <button type="button" class="btn btn-buy-plan">comprar</button>
+                  <button type="button" class="btn btn-buy-plan">Comprar</button>
                 </div>
               </div>
             </div>
