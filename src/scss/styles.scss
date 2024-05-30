@@ -911,6 +911,12 @@ a {
     margin-top: 1rem;
     margin-bottom: 5rem;
 }
+
+.register-link {
+    display: flex;
+    text-justify: center;
+    justify-content: center;
+}
 /*From here start the decoration of the desktop view*/
 
 @media (min-width:768px) {
@@ -922,7 +928,7 @@ a {
 
     .register-link {
         display: flex;
-        text-align: justify;
+        text-justify: center;
         justify-content: center;
     }
 
